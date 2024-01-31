@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Welcome to E-Extension">
+        <menu>
+             <item
+                android:id="@+id/nav_homie"
+                android:icon="@drawable/dashboard"
+                android:title="Home" />
+        </menu>
+    </item>
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ediary"
+            android:icon="@drawable/diary"
+            android:title="E-Diary" />
+
+        <item
+            android:id="@+id/nav_grm"
+            android:icon="@drawable/grm"
+            android:title="Grievance Redress Mechanism" />
+
+        <item
+            android:id="@+id/nav_advisory"
+            android:icon="@drawable/advisory"
+            android:title="Advisory Services" />
+
+        <item
+            android:id="@+id/nav_profiles"
+            android:icon="@drawable/ic_peoples"
+            android:title="Profiling" />
+        <item
+            android:id="@+id/nav_outbreaks"
+            android:icon="@drawable/outbreak"
+            android:title="Outbreaks and Crises" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/weather"
+            android:title="Weather Advisory" />
+<!--        <item-->
+<!--            android:id="@+id/nav_dashboard"-->
+<!--            android:icon="@drawable/onlinedashboard"-->
+<!--            android:title="Online Dashboard" />-->
+
+
+    </group>
+
+    <item android:title="My Account ">
+        <menu>
+            <item
+                android:id="@+id/nav_sync_locations"
+                android:icon="@drawable/ic_sync"
+                android:title="Sync Locations" />
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person"
+                 android:title="My Profile" />
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+//    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "ug.go.agriculture.MAAIF_Extension"
+        minSdkVersion 26
+        targetSdkVersion 33
+        versionCode 34
+//        multiDexEnabled true
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        buildConfigField("String", "BASE_URL_ADVISORY", "\"https://extension.agriculture.go.ug/images/advisory/\"")
+        buildConfigField("String", "BASE_URL_EDIARY", "\"https://extension.agriculture.go.ug/api/\"")
+        buildConfigField("String", "BASE_URL_GRM", "\"https://extension.agriculture.go.ug/images/grm/\"")
+        buildConfigField("String", "BASE_URL_PROFILING", "\"https://extension.agriculture.go.ug/images/profiling/\"")
+        buildConfigField("String", "BASE_URL_OUTBREAKS", "\"https://extension.agriculture.go.ug/images/\"")
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+ //           useProguard false
+            shrinkResources false
+//            minifyEnabled true
+//            useProguard true
+//            shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+
+}
+
+dependencies {
+
+    //Core
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.annotation:annotation:1.3.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+
+    def lifecycle_version = "2.4.0"
+
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.google.android:flexbox:0.3.2'
+    implementation 'com.github.delight-im:Android-SimpleLocation:v1.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:3.0.2', {
+        exclude group: 'com.google.code.findbugs', module: 'jsr305'
+    }
+
+    // image
+    implementation('com.github.bumptech.glide:glide:4.7.1@aar') {
+        transitive = true
+    }
+
+
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+
+    // reactive
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxjava2Version"
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    // google maps library ------------------------------------------------------------------------
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation('com.google.android.libraries.places:places:1.0.0') {
+        exclude module: 'glide'
+    }
+
+    // google gson --------------------------------------------------------------------------------
+    implementation 'com.google.code.gson:gson:2.8.4'
+    implementation 'com.mikhaellopez:circularimageview:3.2.0'          // circle image view
+
+    implementation  'com.fxn769:pix:1.5.6'
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'
+
+    // searchable spinner
+    implementation 'com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1'
+
+}

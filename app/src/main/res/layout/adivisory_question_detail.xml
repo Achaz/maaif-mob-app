@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+<!--        <ImageView-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:src="@drawable/logo_maaif" />-->
+
+
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/newCommentContainer"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/activity_post_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/imageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/custom_border">
+
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/postImageViewDetail"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:transitionName="@string/post_image_transition_name"-->
+<!--                    android:visibility="visible"-->
+<!--                    app:srcCompat="@drawable/ic_picture"-->
+<!--                    tools:targetApi="lollipop" />-->
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPagerQuestionImages"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="centerCrop">
+
+                </androidx.viewpager.widget.ViewPager>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/authorImageView"
+                android:layout_alignEnd="@+id/authorImageView"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="8dp"
+                android:layout_toStartOf="@+id/authorImageView"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Title goes here!"
+                android:textAppearance="@style/TextAppearance.Title" />
+
+            <LinearLayout
+                android:id="@+id/authorContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/titleTextView"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/authorLabelTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="asked by:"
+                    android:textAppearance="@style/TextAppearance.Second.Light" />
+
+                <TextView
+                    android:id="@+id/authorTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Highlight"
+                    android:text="AccountName"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/countersContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/authorContainer"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toStartOf="@+id/authorImageView"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/commentsCounterContainer"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
+
+<!--                                        <ImageView-->
+<!--                                            android:layout_width="10dp"-->
+<!--                                            android:layout_height="10dp"-->
+<!--                                            app:srcCompat="@drawable/ic_fawlea_comment" />-->
+
+<!--                                        <TextView-->
+<!--                                            android:id="@+id/commentsCountTextView"-->
+<!--                                            android:layout_width="wrap_content"-->
+<!--                                            android:layout_height="wrap_content"-->
+<!--                                            android:paddingLeft="4dp"-->
+<!--                                            android:text="0"-->
+<!--                                            android:textAppearance="@style/TextAppearance.Second.Light" />-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/dateContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="8dp">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/ic_clock" />
+
+                    <TextView
+                        android:id="@+id/dateTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="4dp"
+                        android:text="0"
+                        android:textAppearance="@style/TextAppearance.Second.Light" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descriptionEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countersContainer"
+                android:layout_marginBottom="16dp"
+                android:autoLink="all"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Description goes here!"
+                android:textAppearance="@style/TextAppearance.Second" />
+
+            <TextView
+                android:id="@+id/commentsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionEditText"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="Comments"
+                android:textColor="@color/colorPrimaryDark"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/commentsParentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/commentsLabel"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/commentsRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layoutManager="LinearLayoutManager"
+                    tools:listitem="@layout/advisory_question_response" />
+                <!--android:visibility="gone"-->
+
+                <!--<ProgressBar-->
+                <!--android:id="@+id/commentsProgressBar"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:visibility="visible" />-->
+
+                <TextView
+                    android:id="@+id/warningCommentsTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/internet_connection_failed"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/authorImageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/imageContainer"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="210dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/profile"
+                android:transitionName="@string/post_author_image_transition_name" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_above="@+id/newCommentContainer"
+        android:background="@drawable/top_shadow"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/newCommentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/commentEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="@string/comment_text_hint"
+            android:inputType="textMultiLine"
+            android:maxHeight="100dp"
+            android:minHeight="50dp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:background="@drawable/send_comment_button_bg"
+            android:minWidth="0dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/send_comment_button_label"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+

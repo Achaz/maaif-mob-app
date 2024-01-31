@@ -1,0 +1,3831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp" >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_maaif" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farmer Organization Form"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hd1"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg1"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="10dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg2"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:editable="false"
+       android:layout_margin="5dp" />
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg3"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q3"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:editable="false"
+       android:layout_margin="5dp"/>
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg4"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q4"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       android:entries="@array/region"  />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg5"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q5"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg6"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <Spinner
+       android:id="@+id/q6"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg7"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q7"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg8"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q8"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg9"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q9"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+        />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg10"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q10"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hd2"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg11"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q11"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg12"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q12"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="5"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg13"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q13"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg14"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q14"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg15"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q15"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg16"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q16"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/validity"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg17"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q17"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg18"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q18"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/status_tp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg19"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q19"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/ufg20"-->
+<!--        android:textSize="14dp"-->
+<!--        android:visibility="invisible"-->
+<!--        android:layout_margin="5dp"/>-->
+   <EditText
+       android:id="@+id/q20"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:visibility="invisible"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg21"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_tp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg22"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q22"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg23"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q23"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="5"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg24"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q24"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg25"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q25"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg26"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q26"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg27"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q27"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg28"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q28"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_ops"  />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hd3"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg29"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q29"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_support"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg30"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q30"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_support"  />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg31"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q31"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_support"  />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg32"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q32"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+        android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg33"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q33"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+        android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg34"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q34"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg35"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q35"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg36"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q36"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg37"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q37"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg38"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q38"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg39"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q39"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg40"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q40"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg41"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q41"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg42"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q42"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg43"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q43"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg44"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q44"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg45"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q45"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg46"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q46"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg47"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q47"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_support"  />
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg48"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q48"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg49"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q49"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg50"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q50"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg51"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q51"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg52"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+   <EditText
+       android:id="@+id/q52"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hd4"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg53"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q53"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg54"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q54"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg55"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q55"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg56"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q56"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg57"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q57"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg58"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q58"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_pos"  />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg59"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_pos"  />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg60"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+
+    <Spinner
+        android:id="@+id/q60"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fo_pos"  />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg61"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <EditText
+       android:id="@+id/q61"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg62"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+
+    <Spinner
+        android:id="@+id/q62"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg63"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q63"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="12"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg64"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q64"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg65"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q65"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="12"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg66"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q66"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg67"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q67"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="4"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hd6"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:drawableBottom="@android:color/black"
+       android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg68"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q68"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="1"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg69"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q69"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="50"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg70"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q70"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/gender"  />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg71"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q71"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/education"  />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg72"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q72"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="30"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg73"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q73"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="2"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg74"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q74"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="50"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg75"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q75"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/gender"  />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg76"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q76"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/education"  />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg77"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q77"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="30"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg78"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q78"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="2"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg79"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q79"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="50"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg80"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q80"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/gender"  />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg81"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q81"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/education"  />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg82"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+
+   <EditText
+       android:id="@+id/q82"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="30"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg83"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q83"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="2"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg84"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q84"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="50"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg85"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <Spinner
+        android:id="@+id/q85"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/gender"  />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg86"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q86"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/education"  />
+
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg87"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q87"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="text"
+       android:layout_margin="5dp"
+       android:maxLength="30"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg88"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <EditText
+       android:id="@+id/q88"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="5dp"
+       android:background="@color/white"
+       android:inputType="number"
+       android:layout_margin="5dp"
+       android:maxLength="2"
+       android:singleLine="true"
+       android:textColor="@color/input_login" />
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hd7"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:drawableBottom="@android:color/black"
+       android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg89"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q89"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg90"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q90"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       android:entries="@array/gender"
+       />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg91"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q91"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       android:entries="@array/gender"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg92"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q92"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       android:entries="@array/gender"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg93"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q93"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       android:entries="@array/gender"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg94"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q94"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg95"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q95"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg96"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q96"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg97"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q97"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg98"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+   <Spinner
+       android:id="@+id/q98"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg99"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q99"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg100"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+   <Spinner
+       android:id="@+id/q100"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:drawSelectorOnTop="true"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg101"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q101"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg102"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q102"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg103"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q103"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg104"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q104"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg105"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q105"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg106"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q106"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg107"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q107"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg108"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q108"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg109"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q109"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg110"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q110"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg111"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q111"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg112"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q112"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg113"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q113"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg114"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q114"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg115"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q115"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg116"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q116"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg117"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q117"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg118"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q118"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg119"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q119"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg120"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q120"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg121"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q121"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg122"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q122"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg123"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q123"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg124"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q124"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg125"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q125"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg126"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q126"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hd8"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:drawableBottom="@android:color/black"
+       android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg127"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q127"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/activity"
+/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg128"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q128"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/activity"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg129"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q129"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/activity"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg130"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q130"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg131"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q131"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg132"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q132"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg133"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q133"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg134"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q134"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg135"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q135"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg136"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q136"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg137"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q137"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg138"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q138"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg139"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q139"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg140"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q140"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg141"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q141"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hd9"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:drawableBottom="@android:color/black"
+       android:textSize="20dp"/>
+
+
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg142"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q142"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg143"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q143"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg144"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q144"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg145"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q145"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg146"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q146"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg147"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q147"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg148"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q148"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg149"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q149"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg150"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q150"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg151"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q151"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg152"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q152"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg153"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q153"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg154"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q154"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg155"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q155"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg156"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q156"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg157"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q157"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg158"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q158"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg159"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q159"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg160"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q160"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg161"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q161"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg162"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q162"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg163"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q163"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg164"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q164"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ufg165"
+        android:textSize="14dp"
+        android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q165"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hd10"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:drawableBottom="@android:color/black"
+       android:textSize="20dp"/>
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg166"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q166"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg167"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q167"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg168"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q168"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg169"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q169"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg170"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q170"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg171"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q171"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg172"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q172"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg173"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q173"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg174"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q174"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg175"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q175"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg176"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q176"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg177"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q177"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg178"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q178"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg179"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q179"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg180"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q180"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fqnc"  />
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg181"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q181"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg182"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q182"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/fqnc"  />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg183"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q183"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="20"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hd11"
+       android:textStyle="bold"
+       android:layout_margin="5dp"
+       android:drawableBottom="@android:color/black"
+       android:textSize="20dp"/>
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg184"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q184"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg185"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q185"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/chags"  />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg186"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q186"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/chags"  />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg187"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q187"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/chags"  />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg188"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q188"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/chags"  />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg189"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <Spinner
+        android:id="@+id/q189"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/yes_no"  />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg190"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+
+    <EditText
+        android:id="@+id/q190"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg191"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/q191"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg192"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q192"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg193"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <Spinner
+        android:id="@+id/q193"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/chags"  />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg194"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+
+
+    <EditText
+        android:id="@+id/q194"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hd12"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="20dp"/>
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg195"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q195"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg196"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q196"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg197"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q197"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg198"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q198"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg199"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q199"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg200"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q200"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg201"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q201"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg202"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/q202"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/ufg203"
+       android:textSize="14dp"
+       android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/q203"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:textColor="@color/input_login" />
+
+
+
+
+
+
+    <Button
+            android:id="@+id/btnSaveEnrollSurvey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/button_styles"
+            android:text="Save Farmer Organization Data"
+            android:textColor="@color/btn_login" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

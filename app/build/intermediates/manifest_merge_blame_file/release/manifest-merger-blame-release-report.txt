@@ -1,0 +1,903 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ug.go.agriculture.MAAIF_Extension"
+4    android:versionCode="34"
+5    android:versionName="5.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:8:5-67
+11-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:9:5-79
+12-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:10:5-80
+13-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:11:5-79
+14-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:12:5-75
+15-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:12:22-72
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:13:5-81
+16-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:14:5-79
+17-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:14:22-77
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:15:5-65
+18-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:15:22-62
+19
+20    <uses-feature
+20-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:17:5-86
+21        android:name="android.hardware.camera"
+21-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:17:19-57
+22        android:required="false" />
+22-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:17:59-83
+23    <uses-feature
+23-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:18:5-95
+24        android:name="android.hardware.camera.autofocus"
+24-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:18:19-67
+25        android:required="false" />
+25-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:18:69-93
+26    <uses-feature
+26-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:19:5-90
+27        android:name="android.hardware.camera.flash"
+27-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:19:19-63
+28        android:required="false" />
+28-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:19:64-88
+29
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:13:5-66
+30-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:13:22-63
+31    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+31-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:15:5-71
+31-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:15:22-68
+32    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+32-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:16:5-80
+32-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:16:22-77
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:10:5-76
+33-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:10:22-73
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/eb6945c9a87d8da5acc500213d2ba600/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/eb6945c9a87d8da5acc500213d2ba600/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/eb6945c9a87d8da5acc500213d2ba600/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+38    <uses-feature
+38-->[com.otaliastudios:cameraview:2.7.0] /Users/robertmuhereza/.gradle/caches/transforms-3/8211deea509fbc759dc6d145b8e9ebe4/transformed/jetified-cameraview-2.7.0/AndroidManifest.xml:27:5-29:36
+39        android:name="android.hardware.camera.front"
+39-->[com.otaliastudios:cameraview:2.7.0] /Users/robertmuhereza/.gradle/caches/transforms-3/8211deea509fbc759dc6d145b8e9ebe4/transformed/jetified-cameraview-2.7.0/AndroidManifest.xml:28:9-53
+40        android:required="false" />
+40-->[com.otaliastudios:cameraview:2.7.0] /Users/robertmuhereza/.gradle/caches/transforms-3/8211deea509fbc759dc6d145b8e9ebe4/transformed/jetified-cameraview-2.7.0/AndroidManifest.xml:29:9-33
+41    <uses-feature
+41-->[com.otaliastudios:cameraview:2.7.0] /Users/robertmuhereza/.gradle/caches/transforms-3/8211deea509fbc759dc6d145b8e9ebe4/transformed/jetified-cameraview-2.7.0/AndroidManifest.xml:30:5-32:36
+42        android:name="android.hardware.microphone"
+42-->[com.otaliastudios:cameraview:2.7.0] /Users/robertmuhereza/.gradle/caches/transforms-3/8211deea509fbc759dc6d145b8e9ebe4/transformed/jetified-cameraview-2.7.0/AndroidManifest.xml:31:9-51
+43        android:required="false" />
+43-->[com.otaliastudios:cameraview:2.7.0] /Users/robertmuhereza/.gradle/caches/transforms-3/8211deea509fbc759dc6d145b8e9ebe4/transformed/jetified-cameraview-2.7.0/AndroidManifest.xml:32:9-33
+44
+45    <application
+45-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:22:5-136:24
+46        android:name="ug.go.agriculture.MAAIF_Extension.app.AppController"
+46-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:23:9-75
+47        android:allowBackup="true"
+47-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:24:9-35
+48        android:appComponentFactory="androidx"
+48-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:29:9-47
+49        android:extractNativeLibs="false"
+50        android:icon="@drawable/ic_launcher"
+50-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:25:9-45
+51        android:label="@string/app_name"
+51-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:26:9-41
+52        android:largeHeap="true"
+52-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:19:9-33
+53        android:requestLegacyExternalStorage="true"
+53-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:27:9-52
+54        android:supportsRtl="true"
+54-->[com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/robertmuhereza/.gradle/caches/transforms-3/3bf1d9099d79ca6605a2058cd015b5bd/transformed/jetified-searchablespinnerlibrary-1.3.1/AndroidManifest.xml:14:9-35
+55        android:theme="@style/AppTheme"
+55-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:31:9-40
+56        android:usesCleartextTraffic="true" >
+56-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:30:9-44
+57        <activity
+57-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:33:9-43:20
+58            android:name="ug.go.agriculture.MAAIF_Extension.home.Login"
+58-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:34:13-72
+59            android:exported="true"
+59-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:37:13-36
+60            android:label="@string/app_name"
+60-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:35:13-45
+61            android:launchMode="singleTop"
+61-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:36:13-43
+62            android:windowSoftInputMode="adjustPan" >
+62-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:38:13-52
+63            <intent-filter>
+63-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:39:13-42:29
+64                <action
+64-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:40:17-93
+65                    android:name="android.intent.action.MAIN"
+65-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:40:25-66
+66                    android:exported="true" />
+66-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:40:67-90
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:41:17-77
+68-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:41:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:45:13-183
+72            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Dashboard"
+72-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:45:23-92
+73            android:exported="true"
+73-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:45:126-149
+74            android:label="@string/app_name"
+74-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:45:93-125
+75            android:launchMode="singleTop" />
+75-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:45:150-180
+76        <activity
+76-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:46:13-181
+77            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Main"
+77-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:46:23-90
+78            android:exported="true"
+78-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:46:124-147
+79            android:label="@string/app_name"
+79-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:46:91-123
+80            android:launchMode="singleTop" />
+80-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:46:148-178
+81        <activity
+81-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:47:13-181
+82            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Form"
+82-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:47:23-90
+83            android:exported="true"
+83-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:47:124-147
+84            android:label="@string/app_name"
+84-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:47:91-123
+85            android:launchMode="singleTop" />
+85-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:47:148-178
+86        <activity
+86-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:48:13-182
+87            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Form"
+87-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:48:23-91
+88            android:exported="true"
+88-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:48:125-148
+89            android:label="@string/app_name"
+89-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:48:92-124
+90            android:launchMode="singleTop" />
+90-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:48:149-179
+91        <activity
+91-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:49:13-183
+92            android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.Main"
+92-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:49:23-92
+93            android:exported="true"
+93-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:49:126-149
+94            android:label="@string/app_name"
+94-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:49:93-125
+95            android:launchMode="singleTop" />
+95-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:49:150-180
+96        <activity
+96-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:50:13-183
+97            android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.Form"
+97-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:50:23-92
+98            android:exported="true"
+98-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:50:126-149
+99            android:label="@string/app_name"
+99-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:50:93-125
+100            android:launchMode="singleTop" />
+100-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:50:150-180
+101        <activity
+101-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:51:13-184
+102            android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Form"
+102-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:51:23-93
+103            android:exported="true"
+103-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:51:127-150
+104            android:label="@string/app_name"
+104-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:51:94-126
+105            android:launchMode="singleTop" />
+105-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:51:151-181
+106        <activity
+106-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:52:13-178
+107            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Main"
+107-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:52:23-87
+108            android:exported="true"
+108-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:52:121-144
+109            android:label="@string/app_name"
+109-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:52:88-120
+110            android:launchMode="singleTop" />
+110-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:52:145-175
+111        <activity
+111-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:54:13-180
+112            android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Main"
+112-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:54:23-89
+113            android:exported="true"
+113-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:54:123-146
+114            android:label="@string/app_name"
+114-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:54:90-122
+115            android:launchMode="singleTop" />
+115-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:54:147-177
+116        <activity
+116-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:55:13-180
+117            android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Form"
+117-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:55:23-89
+118            android:exported="true"
+118-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:55:123-146
+119            android:label="@string/app_name"
+119-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:55:90-122
+120            android:launchMode="singleTop" />
+120-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:55:147-177
+121        <activity
+121-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:56:13-182
+122            android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Review"
+122-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:56:23-91
+123            android:exported="true"
+123-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:56:125-148
+124            android:label="@string/app_name"
+124-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:56:92-124
+125            android:launchMode="singleTop" />
+125-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:56:149-179
+126        <activity
+126-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:57:13-182
+127            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Main"
+127-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:57:23-91
+128            android:exported="true"
+128-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:57:125-148
+129            android:label="@string/app_name"
+129-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:57:92-124
+130            android:launchMode="singleTop" />
+130-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:57:149-179
+131        <activity
+131-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:58:13-184
+132            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Review"
+132-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:58:23-93
+133            android:exported="true"
+133-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:58:127-150
+134            android:label="@string/app_name"
+134-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:58:94-126
+135            android:launchMode="singleTop" />
+135-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:58:151-181
+136        <activity
+136-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:59:13-189
+137            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.PhotoUpload"
+137-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:59:23-98
+138            android:exported="true"
+138-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:59:132-155
+139            android:label="@string/app_name"
+139-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:59:99-131
+140            android:launchMode="singleTop" />
+140-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:59:156-186
+141        <activity
+141-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:60:13-182
+142            android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Main"
+142-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:60:23-91
+143            android:exported="true"
+143-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:60:125-148
+144            android:label="@string/app_name"
+144-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:60:92-124
+145            android:launchMode="singleTop" />
+145-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:60:149-179
+146        <activity
+146-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:61:13-182
+147            android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Form"
+147-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:61:23-91
+148            android:exported="true"
+148-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:61:125-148
+149            android:label="@string/app_name"
+149-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:61:92-124
+150            android:launchMode="singleTop" />
+150-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:61:149-179
+151        <activity
+151-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:62:13-184
+152            android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Review"
+152-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:62:23-93
+153            android:exported="true"
+153-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:62:127-150
+154            android:label="@string/app_name"
+154-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:62:94-126
+155            android:launchMode="singleTop" />
+155-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:62:151-181
+156        <activity
+156-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:63:13-184
+157            android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Main"
+157-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:63:23-93
+158            android:exported="true"
+158-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:63:127-150
+159            android:label="@string/app_name"
+159-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:63:94-126
+160            android:launchMode="singleTop" />
+160-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:63:151-181
+161        <activity
+161-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:64:13-186
+162            android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Review"
+162-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:64:23-95
+163            android:exported="true"
+163-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:64:129-152
+164            android:label="@string/app_name"
+164-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:64:96-128
+165            android:launchMode="singleTop" />
+165-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:64:153-183
+166        <activity
+166-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:65:13-186
+167            android:name="ug.go.agriculture.MAAIF_Extension.daes.notifications.Main"
+167-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:65:23-95
+168            android:exported="true"
+168-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:65:129-152
+169            android:label="@string/app_name"
+169-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:65:96-128
+170            android:launchMode="singleTop" />
+170-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:65:153-183
+171        <activity
+171-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:66:13-176
+172            android:name="ug.go.agriculture.MAAIF_Extension.profile.Main"
+172-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:66:23-84
+173            android:exported="true"
+173-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:66:119-142
+174            android:label="@string/app_name"
+174-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:66:85-117
+175            android:launchMode="singleTop" />
+175-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:66:143-173
+176        <activity
+176-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:67:13-177
+177            android:name="ug.go.agriculture.MAAIF_Extension.settings.Main"
+177-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:67:23-85
+178            android:exported="true"
+178-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:67:120-143
+179            android:label="@string/app_name"
+179-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:67:86-118
+180            android:launchMode="singleTop" />
+180-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:67:144-174
+181        <activity
+181-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:68:13-177
+182            android:name="ug.go.agriculture.MAAIF_Extension.location.Main"
+182-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:68:23-85
+183            android:exported="true"
+183-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:68:120-143
+184            android:label="@string/app_name"
+184-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:68:86-118
+185            android:launchMode="singleTop" />
+185-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:68:144-174
+186        <activity
+186-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:70:13-193
+187            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.PlannedActivityForm"
+187-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:70:23-102
+188            android:exported="true"
+188-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:70:136-159
+189            android:label="@string/app_name"
+189-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:70:103-135
+190            android:launchMode="singleTop" />
+190-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:70:160-190
+191        <activity
+191-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:71:13-180
+192            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Review"
+192-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:71:23-89
+193            android:exported="true"
+193-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:71:123-146
+194            android:label="@string/app_name"
+194-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:71:90-122
+195            android:launchMode="singleTop" />
+195-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:71:147-177
+196        <activity
+196-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:72:13-185
+197            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.PhotoUpload"
+197-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:72:23-94
+198            android:exported="true"
+198-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:72:128-151
+199            android:label="@string/app_name"
+199-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:72:95-127
+200            android:launchMode="singleTop" />
+200-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:72:152-182
+201        <activity
+201-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:73:13-195
+202            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.UnplannedActivityForm"
+202-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:73:23-104
+203            android:exported="true"
+203-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:73:138-161
+204            android:label="@string/app_name"
+204-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:73:105-137
+205            android:launchMode="singleTop" />
+205-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:73:162-192
+206        <activity
+206-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:75:13-183
+207            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.Main"
+207-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:75:23-91
+208            android:exported="true"
+208-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:75:126-149
+209            android:label="@string/app_name"
+209-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:75:92-124
+210            android:launchMode="singleTop" />
+210-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:75:150-180
+211        <activity
+211-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:76:13-195
+212            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Main"
+212-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:76:23-104
+213            android:exported="true"
+213-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:76:138-161
+214            android:label="@string/app_name"
+214-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:76:105-137
+215            android:launchMode="singleTop" />
+215-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:76:162-192
+216        <activity
+216-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:77:13-195
+217            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Form"
+217-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:77:23-104
+218            android:exported="true"
+218-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:77:138-161
+219            android:label="@string/app_name"
+219-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:77:105-137
+220            android:launchMode="singleTop" />
+220-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:77:162-192
+221        <activity
+221-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:78:13-189
+222            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Main"
+222-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:78:23-98
+223            android:exported="true"
+223-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:78:132-155
+224            android:label="@string/app_name"
+224-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:78:99-131
+225            android:launchMode="singleTop" />
+225-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:78:156-186
+226        <activity
+226-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:79:13-189
+227            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Form"
+227-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:79:23-98
+228            android:exported="true"
+228-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:79:132-155
+229            android:label="@string/app_name"
+229-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:79:99-131
+230            android:launchMode="singleTop" />
+230-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:79:156-186
+231        <activity
+231-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:80:13-190
+232            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Review"
+232-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:80:23-100
+233            android:exported="true"
+233-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:80:134-157
+234            android:label="@string/app_name"
+234-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:80:101-133
+235            android:launchMode="singleTop" />
+235-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:80:158-188
+236        <activity
+236-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:81:13-194
+237            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Form"
+237-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:81:23-103
+238            android:exported="true"
+238-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:81:137-160
+239            android:label="@string/app_name"
+239-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:81:104-136
+240            android:launchMode="singleTop" />
+240-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:81:161-191
+241        <activity
+241-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:82:13-194
+242            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Main"
+242-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:82:23-103
+243            android:exported="true"
+243-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:82:137-160
+244            android:label="@string/app_name"
+244-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:82:104-136
+245            android:launchMode="singleTop" />
+245-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:82:161-191
+246        <activity
+246-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:83:13-196
+247            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Review"
+247-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:83:23-105
+248            android:exported="true"
+248-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:83:139-162
+249            android:label="@string/app_name"
+249-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:83:106-138
+250            android:launchMode="singleTop" />
+250-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:83:163-193
+251        <activity
+251-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:84:13-197
+252            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Review"
+252-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:84:23-106
+253            android:exported="true"
+253-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:84:140-163
+254            android:label="@string/app_name"
+254-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:84:107-139
+255            android:launchMode="singleTop" />
+255-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:84:164-194
+256        <activity
+256-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:86:13-176
+257            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Main"
+257-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:86:23-85
+258            android:exported="true"
+258-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:86:119-142
+259            android:label="@string/app_name"
+259-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:86:86-118
+260            android:launchMode="singleTop" />
+260-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:86:143-173
+261        <activity
+261-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:87:13-194
+262            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.GRMHelpOnlineActivity"
+262-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:87:23-102
+263            android:exported="true"
+263-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:87:137-160
+264            android:label="@string/app_name"
+264-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:87:103-135
+265            android:launchMode="singleTop" />
+265-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:87:161-191
+266        <activity
+266-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:88:13-181
+267            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.GRMOnline"
+267-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:88:23-90
+268            android:exported="true"
+268-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:88:124-147
+269            android:label="@string/app_name"
+269-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:88:91-123
+270            android:launchMode="singleTop" />
+270-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:88:148-178
+271        <activity
+271-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:89:13-184
+272            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.HelpActivity"
+272-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:89:23-93
+273            android:exported="true"
+273-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:89:127-150
+274            android:label="@string/app_name"
+274-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:89:94-126
+275            android:launchMode="singleTop" />
+275-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:89:151-181
+276        <activity
+276-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:90:13-191
+277            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.ReportGrievanceForm"
+277-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:90:23-100
+278            android:exported="true"
+278-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:90:134-157
+279            android:label="@string/app_name"
+279-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:90:101-133
+280            android:launchMode="singleTop" />
+280-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:90:158-188
+281        <activity
+281-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:91:13-178
+282            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Review"
+282-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:91:23-87
+283            android:exported="true"
+283-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:91:121-144
+284            android:label="@string/app_name"
+284-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:91:88-120
+285            android:launchMode="singleTop" />
+285-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:91:145-175
+286        <activity
+286-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:92:13-177
+287            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Track"
+287-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:92:23-86
+288            android:exported="true"
+288-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:92:120-143
+289            android:label="@string/app_name"
+289-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:92:87-119
+290            android:launchMode="singleTop" />
+290-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:92:144-174
+291        <activity
+291-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:93:13-201
+292            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.TrackGrievanceOnlineActivity"
+292-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:93:23-109
+293            android:exported="true"
+293-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:93:111-134
+294            android:label="@string/app_name"
+294-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:93:135-167
+295            android:launchMode="singleTop" />
+295-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:93:168-198
+296        <activity
+296-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:94:13-188
+297            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.WelcomeActivity"
+297-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:94:23-96
+298            android:exported="true"
+298-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:94:131-154
+299            android:label="@string/app_name"
+299-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:94:97-129
+300            android:launchMode="singleTop" />
+300-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:94:155-185
+301        <activity
+301-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:96:13-178
+302            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Main"
+302-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:96:23-87
+303            android:exported="true"
+303-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:96:121-144
+304            android:label="@string/app_name"
+304-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:96:88-120
+305            android:launchMode="singleTop" />
+305-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:96:145-175
+306        <activity
+306-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:97:13-195
+307            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMHelpOnlineActivity"
+307-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:97:23-104
+308            android:exported="true"
+308-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:97:138-161
+309            android:label="@string/app_name"
+309-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:97:105-137
+310            android:launchMode="singleTop" />
+310-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:97:162-192
+311        <activity
+311-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:98:13-183
+312            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMOnline"
+312-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:98:23-92
+313            android:exported="true"
+313-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:98:126-149
+314            android:label="@string/app_name"
+314-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:98:93-125
+315            android:launchMode="singleTop" />
+315-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:98:150-180
+316        <activity
+316-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:99:13-186
+317            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.HelpActivity"
+317-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:99:23-95
+318            android:exported="true"
+318-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:99:129-152
+319            android:label="@string/app_name"
+319-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:99:96-128
+320            android:launchMode="singleTop" />
+320-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:99:153-183
+321        <activity
+321-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:100:13-193
+322            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.ReportGrievanceForm"
+322-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:100:23-102
+323            android:exported="true"
+323-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:100:136-159
+324            android:label="@string/app_name"
+324-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:100:103-135
+325            android:launchMode="singleTop" />
+325-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:100:160-190
+326        <activity
+326-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:101:13-180
+327            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Review"
+327-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:101:23-89
+328            android:exported="true"
+328-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:101:123-146
+329            android:label="@string/app_name"
+329-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:101:90-122
+330            android:launchMode="singleTop" />
+330-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:101:147-177
+331        <activity
+331-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:102:13-179
+332            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Track"
+332-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:102:23-88
+333            android:exported="true"
+333-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:102:122-145
+334            android:label="@string/app_name"
+334-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:102:89-121
+335            android:launchMode="singleTop" />
+335-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:102:146-176
+336        <activity
+336-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:103:13-203
+337            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.TrackGrievanceOnlineActivity"
+337-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:103:23-111
+338            android:exported="true"
+338-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:103:113-136
+339            android:label="@string/app_name"
+339-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:103:137-169
+340            android:launchMode="singleTop" />
+340-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:103:170-200
+341        <activity
+341-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:104:13-189
+342            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.WelcomeActivity"
+342-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:104:23-98
+343            android:exported="true"
+343-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:104:132-155
+344            android:label="@string/app_name"
+344-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:104:99-131
+345            android:launchMode="singleTop" />
+345-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:104:156-186
+346        <activity
+346-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:105:13-183
+347            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.PhotoUpload"
+347-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:105:23-92
+348            android:exported="true"
+348-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:105:126-149
+349            android:label="@string/app_name"
+349-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:105:93-125
+350            android:launchMode="singleTop" />
+350-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:105:150-180
+351        <activity
+351-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:107:13-172
+352            android:name="ug.go.agriculture.MAAIF_Extension.home.Main"
+352-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:107:23-81
+353            android:exported="true"
+353-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:107:82-105
+354            android:label="@string/app_name"
+354-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:107:106-138
+355            android:launchMode="singleTop" />
+355-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:107:139-169
+356        <activity
+356-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:108:13-188
+357            android:name="ug.go.agriculture.MAAIF_Extension.home.VerifyAccountActivity"
+357-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:108:23-98
+358            android:exported="true"
+358-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:108:99-122
+359            android:label="@string/app_name"
+359-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:108:123-155
+360            android:launchMode="singleTop" />
+360-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:108:156-186
+361        <activity
+361-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:109:13-178
+362            android:name="ug.go.agriculture.MAAIF_Extension.home.MainFarmer"
+362-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:109:23-87
+363            android:exported="true"
+363-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:109:121-144
+364            android:label="@string/app_name"
+364-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:109:88-120
+365            android:launchMode="singleTop" />
+365-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:109:145-175
+366        <activity
+366-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:110:13-181
+367            android:name="ug.go.agriculture.MAAIF_Extension.home.RegisterForm"
+367-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:110:23-89
+368            android:exported="true"
+368-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:110:124-147
+369            android:label="@string/app_name"
+369-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:110:90-122
+370            android:launchMode="singleTop" />
+370-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:110:148-178
+371        <activity
+371-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:111:13-183
+372            android:name="ug.go.agriculture.MAAIF_Extension.home.ForgotPassword"
+372-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:111:23-91
+373            android:exported="true"
+373-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:111:126-149
+374            android:label="@string/app_name"
+374-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:111:92-124
+375            android:launchMode="singleTop" />
+375-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:111:150-180
+376        <activity
+376-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:112:13-182
+377            android:name="ug.go.agriculture.MAAIF_Extension.home.VerifyAccount"
+377-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:112:23-90
+378            android:exported="true"
+378-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:112:125-148
+379            android:label="@string/app_name"
+379-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:112:91-123
+380            android:launchMode="singleTop" />
+380-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:112:149-179
+381        <activity
+381-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:113:13-183
+382            android:name="ug.go.agriculture.MAAIF_Extension.home.ChangePassword"
+382-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:113:23-91
+383            android:exported="true"
+383-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:113:126-149
+384            android:label="@string/app_name"
+384-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:113:92-124
+385            android:launchMode="singleTop" />
+385-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:113:150-180
+386        <activity
+386-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:115:13-162
+387            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Questions"
+387-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:115:23-95
+388            android:label="@string/app_name"
+388-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:115:96-128
+389            android:launchMode="singleTop" />
+389-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:115:129-159
+390        <activity
+390-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:116:13-176
+391            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.QuestionDetailsActivity"
+391-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:116:23-109
+392            android:label="@string/app_name"
+392-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:116:110-142
+393            android:launchMode="singleTop" />
+393-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:116:143-173
+394        <activity
+394-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:117:13-170
+395            android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.FarmerQuestions"
+395-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:117:23-103
+396            android:label="@string/app_name"
+396-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:117:104-136
+397            android:launchMode="singleTop" />
+397-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:117:137-167
+398
+399        <receiver
+399-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:119:13-123:24
+400            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.NetworkStateChecker"
+400-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:119:23-102
+401            android:exported="true" >
+401-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:119:103-126
+402            <intent-filter>
+402-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:120:17-122:33
+403                <action
+403-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:121:21-107
+404                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+404-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:121:29-80
+405                    android:exported="true" />
+405-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:121:82-105
+406            </intent-filter>
+407        </receiver>
+408
+409        <uses-library
+409-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:125:13-91
+410            android:name="org.apache.http.legacy"
+410-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:125:27-64
+411            android:required="false" />
+411-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:125:65-89
+412
+413        <provider
+413-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:127:13-135:24
+414            android:name="androidx.core.content.FileProvider"
+414-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:128:17-66
+415            android:authorities="ug.go.agriculture.MAAIF_Extension.provider"
+415-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:129:17-81
+416            android:exported="false"
+416-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:130:17-41
+417            android:grantUriPermissions="true" >
+417-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:131:17-51
+418            <meta-data
+418-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:132:17-134:68
+419                android:name="android.support.FILE_PROVIDER_PATHS"
+419-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:133:21-71
+420                android:resource="@xml/file_paths" />
+420-->/Applications/XAMPP/xamppfiles/htdocs/projects/m-omulimisa/maaif-extension/App/mobile-app/app/src/main/AndroidManifest.xml:134:21-55
+421        </provider>
+422
+423        <activity
+423-->[com.karumi:dexter:4.2.0] /Users/robertmuhereza/.gradle/caches/transforms-3/06a0db79c4f054160efbd03505721dbb/transformed/jetified-dexter-4.2.0/AndroidManifest.xml:27:9-29:72
+424            android:name="com.karumi.dexter.DexterActivity"
+424-->[com.karumi:dexter:4.2.0] /Users/robertmuhereza/.gradle/caches/transforms-3/06a0db79c4f054160efbd03505721dbb/transformed/jetified-dexter-4.2.0/AndroidManifest.xml:28:13-60
+425            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+425-->[com.karumi:dexter:4.2.0] /Users/robertmuhereza/.gradle/caches/transforms-3/06a0db79c4f054160efbd03505721dbb/transformed/jetified-dexter-4.2.0/AndroidManifest.xml:29:13-69
+426        <activity
+426-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:21:9-24:52
+427            android:name="com.fxn.pix.Pix"
+427-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:22:13-43
+428            android:noHistory="true"
+428-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:23:13-37
+429            android:screenOrientation="portrait" /> <!-- Autocomplete -->
+429-->[com.fxn769:pix:1.5.6] /Users/robertmuhereza/.gradle/caches/transforms-3/adb9d77c92ef47c87248f72246a3d180/transformed/jetified-pix-1.5.6/AndroidManifest.xml:24:13-49
+430        <activity
+430-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:16:9-23:20
+431            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+431-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:17:13-91
+432            android:exported="false"
+432-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:18:13-37
+433            android:hardwareAccelerated="true"
+433-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:19:13-47
+434            android:label="@string/places_autocomplete_label"
+434-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:20:13-62
+435            android:theme="@style/PlacesAutocompleteThemeOverlay"
+435-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:21:13-66
+436            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+436-->[com.google.android.libraries.places:places:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/35865f3bb949b045ff5737621eb660bd/transformed/jetified-places-1.0.0/AndroidManifest.xml:22:13-71
+437        </activity>
+438        <activity
+438-->[com.google.android.gms:play-services-base:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/b0ccaa7e74f85fc81886b1df5f1ed157/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+439            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+439-->[com.google.android.gms:play-services-base:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/b0ccaa7e74f85fc81886b1df5f1ed157/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+440            android:exported="false"
+440-->[com.google.android.gms:play-services-base:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/b0ccaa7e74f85fc81886b1df5f1ed157/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+441            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+441-->[com.google.android.gms:play-services-base:17.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/b0ccaa7e74f85fc81886b1df5f1ed157/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+442
+443        <meta-data
+443-->[com.google.android.gms:play-services-basement:17.4.0] /Users/robertmuhereza/.gradle/caches/transforms-3/cde007d45361b4c502063b91b274391c/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+444            android:name="com.google.android.gms.version"
+444-->[com.google.android.gms:play-services-basement:17.4.0] /Users/robertmuhereza/.gradle/caches/transforms-3/cde007d45361b4c502063b91b274391c/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+445            android:value="@integer/google_play_services_version" />
+445-->[com.google.android.gms:play-services-basement:17.4.0] /Users/robertmuhereza/.gradle/caches/transforms-3/cde007d45361b4c502063b91b274391c/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+446
+447        <provider
+447-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+448            android:name="androidx.startup.InitializationProvider"
+448-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+449            android:authorities="ug.go.agriculture.MAAIF_Extension.androidx-startup"
+449-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+450            android:exported="false" >
+450-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+451            <meta-data
+451-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+452                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+452-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+453                android:value="androidx.startup" />
+453-->[androidx.emoji2:emoji2:1.0.0] /Users/robertmuhereza/.gradle/caches/transforms-3/73850b32b2c7ce32b12b91c16b2382c2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+454            <meta-data
+454-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/robertmuhereza/.gradle/caches/transforms-3/280b8c662ae12c28e2c58a98b88e76a9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+455                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+455-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/robertmuhereza/.gradle/caches/transforms-3/280b8c662ae12c28e2c58a98b88e76a9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+456                android:value="androidx.startup" />
+456-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/robertmuhereza/.gradle/caches/transforms-3/280b8c662ae12c28e2c58a98b88e76a9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+457        </provider>
+458    </application>
+459
+460</manifest>

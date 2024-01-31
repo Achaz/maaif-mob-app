@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ug.go.agriculture.MAAIF_Extension"
+    android:versionCode="32"
+    android:versionName="5.1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera"  android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus"  android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.flash" android:required="false"/>
+
+
+    <application
+        android:name="ug.go.agriculture.MAAIF_Extension.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="androidx"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+    <!--    <service
+            android:name=".MyNotificationService"
+            android:exported="false" />-->
+
+        <activity
+            android:name="ug.go.agriculture.MAAIF_Extension.home.Login"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:exported="true" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Dashboard" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.PhotoUpload" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.notifications.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.profile.Main" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.settings.Main" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.location.Main" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.PlannedActivityForm" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.PhotoUpload" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.UnplannedActivityForm" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.Main" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop"/>
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Form" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.GRMHelpOnlineActivity" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.GRMOnline" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.HelpActivity" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.ReportGrievanceForm" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Track" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.TrackGrievanceOnlineActivity"  android:exported="true" android:label="@string/app_name" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.WelcomeActivity" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Main" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMHelpOnlineActivity" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMOnline" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.HelpActivity" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.ReportGrievanceForm" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Review" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Track" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.TrackGrievanceOnlineActivity"  android:exported="true" android:label="@string/app_name" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.WelcomeActivity" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.PhotoUpload" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.Main" android:exported="true" android:label="@string/app_name" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.VerifyAccountActivity" android:exported="true" android:label="@string/app_name" android:launchMode="singleTop"/>
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.MainFarmer" android:label="@string/app_name" android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.RegisterForm" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.ForgotPassword" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.VerifyAccount" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.home.ChangePassword" android:label="@string/app_name"  android:exported="true" android:launchMode="singleTop" />
+
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Questions" android:label="@string/app_name" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.QuestionDetailsActivity" android:label="@string/app_name" android:launchMode="singleTop" />
+            <activity android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.FarmerQuestions" android:label="@string/app_name" android:launchMode="singleTop" />
+
+            <receiver android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.NetworkStateChecker" android:exported="true">
+                <intent-filter>
+                    <action android:name="android.net.conn.CONNECTIVITY_CHANGE"  android:exported="true"/>
+                </intent-filter>
+            </receiver>
+
+            <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+            <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="ug.go.agriculture.MAAIF_Extension.provider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+                <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths"></meta-data>
+            </provider>
+         </application>
+
+    </manifest>

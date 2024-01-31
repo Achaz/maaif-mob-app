@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-Extension</string>
+    <string name="hint_email">Enter Username</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome to E-Extension</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="btn_farmerRegistration">FARMER REGISTRATION</string>
+    <string name="btn_farmVisits">FARM VISITS</string>
+    <string name="btn_sync">SYNC MY DATA</string>
+    <string name="btn_review">REVIEW SAVED DATA</string>
+    <string name="btn_report">E-Diary ONLINE</string>
+    <string name="name">Fullname</string>
+    <string name="title_with_progress">Attach Photo</string>
+    <string name="title_without_progress">Upload Photo</string>
+    <string name="error_message">Error occurred!</string>
+    <string name="message_need_permission">Need Permissions</string>
+    <string name="message_grant_permission">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="label_setting">GOTO SETTINGS</string>
+    <string name="cancel">Cancel</string>
+    <string name="take_photo">Capture Photo</string>
+    <string name="choose_gallery">Choose from Library</string>
+    <string name="file_upload_successful">File has been uploaded successfully</string>
+    <string name="first_seleted_media">First select file for upload</string>
+    <string name="photo_warning">NB: You can only upload photos when having an active internet connection.</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="photo_type_ediary">
+        <item>---Select Photo Type---</item>
+        <item>Activity Photo</item>
+        <item>Register of Attendees</item>
+        <item>Farmer(s)</item>
+    </string-array>
+
+    <string-array name="chags">
+        <item>Low production among members</item>
+        <item>Lack of financing of business operations</item>
+        <item>Changing weather conditions</item>
+        <item>Lack of a sustainable source of funding</item>
+        <item>Low member loyalty or commitment</item>
+        <item>Mistrust among members</item>
+        <item>Governance/poor leadership/greed</item>
+        <item>Competition with other farmer organization</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="fqnc">
+        <item>Monthly</item>
+        <item>Quarterly </item>
+        <item>Twice a year</item>
+        <item>Once a year</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="activity">
+        <item>Production activities</item>
+        <item>Marketing activities</item>
+        <item>Agro processing activities</item>
+        <item>Non-agricultural activities</item>
+    </string-array>
+
+    <string-array name="event_type_1">
+
+        <item>---Select Option---</item>
+        <item>Disease</item>
+        <item>Pest</item>
+    </string-array>
+
+
+    <string-array name="event_type_2">
+        <item>---Select Option---</item>
+        <item>Flood</item>
+        <item>Hailstorm</item>
+        <item>Landslide</item>
+        <item>Storm</item>
+        <item>Drought</item>
+        <item>Heavy Rain</item>
+    </string-array>
+
+    <string-array name="education">
+        <item>No Formal Education</item>
+        <item>Some Primary</item>
+        <item>Primary</item>
+        <item>Some Secondary</item>
+        <item>Secondary</item>
+        <item>Tertiary</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>---SELECT REGION---</item>
+        <item>CENTRAL</item>
+        <item>EASTERN</item>
+        <item>NORTHERN</item>
+        <item>WESTERN</item>
+    </string-array>
+
+
+    <string-array name="catz">
+        <item>---Select Categorization---</item>
+        <item>Farmer</item>
+        <item>Researcher</item>
+        <item>Other Stakeholder</item>
+    </string-array>
+
+    <string-array name="catz_farmer">
+        <item>---Select Categorization---</item>
+        <item>Commercial Farmer</item>
+        <item>Small Scale Farmer</item>
+    </string-array>
+
+    <string-array name="catz_farmer_group">
+        <item>---Select Categorization---</item>
+        <item>Farmer Group</item>
+        <item>Community Based Organization</item>
+        <item>ACCE</item>
+        <item>VSLA</item>
+    </string-array>
+
+
+    <string-array name="validity">
+        <item>Permanent</item>
+        <item>Valid</item>
+        <item>Expired</item>
+    </string-array>
+
+    <string-array name="market_type">
+        <item>---Select Market Type---</item>
+        <item>General Market</item>
+        <item>Fruit Market</item>
+        <item>Dairy Products Market</item>
+        <item>Abattoir</item>
+        <item>Small Markets</item>
+        <item>Ranches</item>
+        <item>Beaches</item>
+        <item>Landing Sites</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="volume_measures">
+        <item>---Select Option---</item>
+        <item>Bunches</item>
+        <item>Boxes</item>
+        <item>Bags</item>
+        <item>Tonnes</item>
+        <item>KGs</item>
+    </string-array>
+
+    <string-array name="price_measures">
+        <item>---Select Option---</item>
+        <item>Shillings/Bunch</item>
+        <item>Shillings/Box</item>
+        <item>Shillings/Bag </item>
+        <item>Shillings/Tonne</item>
+        <item>Shillings/Kg</item>
+    </string-array>
+
+
+    <string-array name="education_levelx">
+        <item>---Select Option---</item>
+        <item>No School at All</item>
+        <item>Some Primary School</item>
+        <item>Primary School</item>
+        <item>Secondary School</item>
+        <item>Some Tertiary School</item>
+        <item>Under graduate Degree</item>
+        <item>Post graduate Degree</item>
+        <item>PhD</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>---Select Option---</item>
+        <item>Acholi</item>
+        <item>Adhola</item>
+        <item>Alur</item>
+        <item>Aringa</item>
+        <item>Bari</item>
+        <item>English</item>
+        <item>Gishu</item>
+        <item>Ik</item>
+        <item>Itesot</item>
+        <item>Karamojong</item>
+        <item>Kuman</item>
+        <item>Lango</item>
+        <item>Luganda</item>
+        <item>Lugbara</item>
+        <item>Lunyole</item>
+        <item>Lusoga</item>
+        <item>Ma\'di</item>
+        <item>Ndo</item>
+        <item>Pokot</item>
+        <item>Rufumbira</item>
+        <item>Rukiga</item>
+        <item>Rukonjo</item>
+        <item>Runyankole</item>
+        <item>Runyoro</item>
+        <item>Rutoro</item>
+        <item>Sabiny</item>
+        <item>Swahili</item>
+    </string-array>
+
+
+    <string-array name="genderX">
+        <item>---Select Gender---</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="yes_no">
+        <item>---Select Option---</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="other_player_catz">
+        <item>---Select Option---</item>
+        <item>State Actor</item>
+        <item>Non State Actor</item>
+        <item>Irrigation Scheme</item>
+        <item>Project</item>
+        <item>Ware House/Storage Facility</item>
+    </string-array>
+
+
+    <string-array name="level_of_operation">
+        <item>---Select Option---</item>
+        <item>Parish level</item>
+        <item>Subcounty Level</item>
+        <item>District Level</item>
+        <item>Country level</item>
+        <item>Worldwide</item>
+    </string-array>
+
+    <string-array name="gNature">
+        <item>---Select Grievance Nature---</item>
+        <item>Fraud</item>
+        <item>Land Dispute</item>
+        <item>Compensation</item>
+        <item>Environmental</item>
+        <item>Social Issues</item>
+        <item>Management</item>
+        <item>E-Voucher System</item>
+        <item>Input Dealers</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="gReceipt">
+        <item>---Select Option---</item>
+        <item>App</item>
+        <item>Email</item>
+        <item>Telephone</item>
+        <item>In Person</item>
+        <item>Mail/Written</item>
+        <item>SMS</item>
+        <item>Website</item>
+        <item>Meeting</item>
+        <item>Suggestion Box</item>
+        <item>Toll Free</item>
+    </string-array>
+
+
+    <string-array name="gSettlement">
+        <item>---Select Option---</item>
+        <item>Not Settled</item>
+        <item>ACDP Management</item>
+        <item>Police</item>
+        <item>Courts of Law</item>
+        <item>District Tribunal</item>
+        <item>MAAIF Top Management</item>
+        <item>Farmer Group</item>
+        <item>Subcounty GRC</item>
+        <item>District GRC</item>
+        <item>UBA</item>
+        <item>Agro-Input Dealer</item>
+        <item>Compensation</item>
+        <item>Document agreed actions</item>
+        <item>Caution</item>
+        <item>Apology</item>
+        <item>Restitution/Restoration</item>
+        <item>Giving Information</item>
+    </string-array>
+
+
+    <string-array name="feedbackmode">
+        <item>---Select Option---</item>
+        <item>App</item>
+        <item>Email</item>
+        <item>Telephone</item>
+        <item>In Person</item>
+        <item>Mail/Written</item>
+        <item>SMS</item>
+    </string-array>
+
+
+    <string-array name="status_tp">
+        <item>Higher (A collection of farmers groups/organizations e.g RPO &amp; ACCESS)</item>
+        <item>Lower (Village based Farmer Group)</item>
+    </string-array>
+
+
+    <string-array name="fo_support">
+        <item>None</item>
+        <item>CBO</item>
+        <item>Government</item>
+        <item>NGO</item>
+        <item>Private Company</item>
+    </string-array>
+
+
+    <string-array name="fo_tp">
+        <item>Farmer Group</item>
+        <item>Farmer Association</item>
+        <item>Community Based Organizations</item>
+        <item>RPO (Primary Cooperative)</item>
+        <item>ACCE (Secondary Cooperative)</item>
+        <item>Union</item>
+    </string-array>
+
+
+    <string-array name="fo_ops">
+        <item>Village</item>
+        <item>Parish</item>
+        <item>Subcounty</item>
+        <item>District</item>
+        <item>Regional - multiple districts</item>
+        <item>National - entire country</item>
+    </string-array>
+
+    <string-array name="fo_pos">
+        <item>None</item>
+        <item>Manager</item>
+        <item>Extension officer(s)</item>
+        <item>Accountant</item>
+    </string-array>
+
+
+    <!-- UFG Enrollmnt  -->
+    <string name="hd1">Section A : Location Details</string>
+    <string name="hd2">Section B : Membership Details &amp; FO Type</string>
+    <string name="hd3">Section C : Support Details &amp; FO Formation</string>
+    <string name="hd4">Section D : Employee &amp; Membership Details</string>
+    <string name="hd6">Section E : FO Leadership Details</string>
+    <string name="hd7">Section F : FO Enterprises </string>
+    <string name="hd8">Section G : FO Activity Involved In</string>
+    <string name="hd9">Section H : FO Production Details</string>
+    <string name="hd10">Section I : FO Meetings</string>
+    <string name="hd11">Section J : FO challenges</string>
+    <string name="hd12">Section K : FO References</string>
+
+
+    <string name="ufg1">Farmer Organization Name</string>
+    <string name="ufg2">GPS Latitude</string>
+    <string name="ufg3">GPS Longitude</string>
+    <string name="ufg4">Region</string>
+    <string name="ufg5">Sub Region</string>
+    <string name="ufg6">District</string>
+    <string name="ufg7">County/Municipality</string>
+    <string name="ufg8">Subcounty/Division</string>
+    <string name="ufg9">Parish/Ward</string>
+    <string name="ufg10">Village/Zone</string>
+
+
+    <string name="ufg11">Year of formation</string>
+    <string name="ufg12">Members at formation</string>
+    <string name="ufg13">Males at formation</string>
+    <string name="ufg14">Females at formation</string>
+    <string name="ufg15">Year of registration</string>
+    <string name="ufg16">Registration validity</string>
+    <string name="ufg17">Registration valid till</string>
+    <string name="ufg18">Registration status type</string>
+    <string name="ufg19">If registration status type other(Specify)</string>
+    <string name="ufg20">Farmer organization nature</string>
+    <string name="ufg21">Farmer organization type</string>
+    <string name="ufg22">If farmer organization type other(specify)</string>
+    <string name="ufg23">Current Members</string>
+    <string name="ufg24">Current male adults</string>
+    <string name="ufg25">Current female adults</string>
+    <string name="ufg26">Current male youths</string>
+    <string name="ufg27">Current female youths</string>
+    <string name="ufg28">Level of Operation</string>
+
+
+    <string name="ufg29">Agencies supporting FO 1</string>
+    <string name="ufg30">Agencies supporting FO 2</string>
+    <string name="ufg31">Agencies supporting FO 3</string>
+    <string name="ufg32">Specify NGO 1</string>
+    <string name="ufg33">Specify NGO 2</string>
+    <string name="ufg34">Specify NGO 3</string>
+    <string name="ufg35">Specify CBO 1</string>
+    <string name="ufg36">Specify CBO 2</string>
+    <string name="ufg37">Specify CBO 3</string>
+    <string name="ufg38">Specify Government Agency 1</string>
+    <string name="ufg39">Specify Government Agency 2</string>
+    <string name="ufg40">Specify Government Agency 3</string>
+    <string name="ufg41">Specify Private Agency 1</string>
+    <string name="ufg42">Specify Private Agency 2</string>
+    <string name="ufg43">Specify Private Agency 3</string>
+    <string name="ufg44">Specify Other Agency 1</string>
+    <string name="ufg45">Specify Other Agency 2</string>
+    <string name="ufg46">Specify Other Agency 3</string>
+    <string name="ufg47">Which agency initiated formation of the FO?</string>
+    <string name="ufg48">Specify NGO which initiated formation</string>
+    <string name="ufg49">Specify CBO which initiated formation</string>
+    <string name="ufg50">Specify Private Agency which initiated formation</string>
+    <string name="ufg51">Specify Government Agency which initiated formation</string>
+    <string name="ufg52">Specify Other Agency which initiated formation</string>
+
+
+    <string name="ufg53">FO has employees</string>
+    <string name="ufg54">Number of male employees</string>
+    <string name="ufg55">Number of female employees</string>
+    <string name="ufg56">Number of Professional Positions filled</string>
+    <string name="ufg57">Number of Positions filled</string>
+    <string name="ufg58">Professional Position 1</string>
+    <string name="ufg59">Professional Position 2</string>
+    <string name="ufg60">Professional Position 3</string>
+    <string name="ufg61">Specify Other Position</string>
+    <string name="ufg62">Does FO require membership? </string>
+    <string name="ufg63">What is the Membership amount?</string>
+    <string name="ufg64">Does FO require shares?</string>
+    <string name="ufg65">What is the Share amount?</string>
+    <string name="ufg66">How many males are fully  paid up?</string>
+    <string name="ufg67">How many females are fully  paid up?</string>
+
+
+    <string name="ufg68">Number of FO Leaders</string>
+    <string name="ufg69">Chairperson Name</string>
+    <string name="ufg70">Chairperson Gender</string>
+    <string name="ufg71">Chairperson Education</string>
+    <string name="ufg72">Chairperson Contacts</string>
+    <string name="ufg73">Chairperson Age</string>
+    <string name="ufg74">Secretary Name</string>
+    <string name="ufg75">Secretary Gender</string>
+    <string name="ufg76">Secretary Education</string>
+    <string name="ufg77">Secretary Contacts</string>
+    <string name="ufg78">Secretary Age</string>
+    <string name="ufg79">Treasurer Name</string>
+    <string name="ufg80">Treasurer Gender</string>
+    <string name="ufg81">Treasurer Education</string>
+    <string name="ufg82">Treasurer Contacts</string>
+    <string name="ufg83">Treasurer Age</string>
+    <string name="ufg84">Other Leader Name</string>
+    <string name="ufg85">Other Leader Gender</string>
+    <string name="ufg86">Other Leader Education</string>
+    <string name="ufg87">Other Leader Contacts</string>
+    <string name="ufg88">Other Leader Age</string>
+
+
+    <string name="ufg89">Major Entreprize 1</string>
+    <string name="ufg90">Major Entreprize 2</string>
+    <string name="ufg91">Major Entreprize 3</string>
+    <string name="ufg92">Major Entreprize 4</string>
+    <string name="ufg93">Major Entreprize 5</string>
+    <string name="ufg94">Specify Cereal 1	</string>
+    <string name="ufg95">Specify Cereal 2</string>
+    <string name="ufg96">Specify Cereal 3</string>
+    <string name="ufg97">Specify Legume 1</string>
+    <string name="ufg98">Specify Legume 2</string>
+    <string name="ufg99">Specify Legume 3</string>
+    <string name="ufg100">Specify Bananas 1</string>
+    <string name="ufg101">Specify Bananas 2</string>
+    <string name="ufg102">Specify Bananas 3</string>
+    <string name="ufg103">Specify Vegetable 1</string>
+    <string name="ufg104">Specify Vegetable 2</string>
+    <string name="ufg105">Specify Vegetable 3</string>
+    <string name="ufg106">Specify Fruit 1</string>
+    <string name="ufg107">Specify Fruit 2</string>
+    <string name="ufg108">Specify Fruit 3</string>
+    <string name="ufg109">Specify Nuts 1</string>
+    <string name="ufg110">Specify Nuts 2</string>
+    <string name="ufg111">Specify Nuts 3</string>
+    <string name="ufg112">Specify Roots &amp; Tubers 1</string>
+    <string name="ufg113">Specify Roots &amp; Tubers 2</string>
+    <string name="ufg114">Specify Roots &amp; Tubers 3</string>
+    <string name="ufg115">Specify Perennials &amp; other crops 1</string>
+    <string name="ufg116">Specify Perennials &amp; other crops 2</string>
+    <string name="ufg117">Specify Perennials &amp; other crops 3</string>
+    <string name="ufg118">Specify Livestock 1</string>
+    <string name="ufg119">Specify Livestock 2</string>
+    <string name="ufg120">Specify Livestock 3</string>
+    <string name="ufg121">Specify Poultry 1</string>
+    <string name="ufg122">Specify Poultry 2</string>
+    <string name="ufg123">Specify Poultry 3</string>
+    <string name="ufg124">Specify Fish 1</string>
+    <string name="ufg125">Specify Fish 2</string>
+    <string name="ufg126">Specify Fish 3</string>
+
+
+    <string name="ufg127">Major Activity 1</string>
+    <string name="ufg128">Major Activity 2</string>
+    <string name="ufg129">Major Activity 3</string>
+    <string name="ufg130">Production Level Activity 1</string>
+    <string name="ufg131">Production Level Activity 2</string>
+    <string name="ufg132">Production Level Activity 3</string>
+    <string name="ufg133">Marketing Level Activity 1</string>
+    <string name="ufg134">Marketing Level Activity 2</string>
+    <string name="ufg135">Marketing Level Activity 3</string>
+    <string name="ufg136">Non Agricultural Activity 1</string>
+    <string name="ufg137">Non Agricultural Activity 2</string>
+    <string name="ufg138">Non Agricultural Activity 3</string>
+    <string name="ufg139">Agro Processing Activity 1</string>
+    <string name="ufg140">Agro Processing Activity 2</string>
+    <string name="ufg141">Agro Processing Activity 3</string>
+
+
+    <string name="ufg142">Members Have 2 or more acres of land</string>
+    <string name="ufg143">Members Have 5 or more acres of land</string>
+    <string name="ufg144">Members Have 10 or more acres of land</string>
+    <string name="ufg145">Members Have 1 acre perenials or other crops</string>
+    <string name="ufg146">Members Have 1 acre Cereals </string>
+    <string name="ufg147">Members Have 1 acre Legumes </string>
+    <string name="ufg148">Members Have 1 acre Bananas </string>
+    <string name="ufg149">Members Have 1 acre Vegetables </string>
+    <string name="ufg150">Members Have 1 acre Nuts </string>
+    <string name="ufg151">Members Have 1 acre Fruits </string>
+    <string name="ufg152">Members Have 1 acre Roots &amp; Tubers</string>
+    <string name="ufg153">Members Produce 3 trays of eggs </string>
+    <string name="ufg154">Members Produce 10 Litres of Milk</string>
+    <string name="ufg155">Members Produce 200 Kgs of Beef</string>
+    <string name="ufg156">Members Produce 200 Kgs of Fish</string>
+    <string name="ufg157">Members Produce 20 Litres of Honey</string>
+    <string name="ufg158">Produce Market 1</string>
+    <string name="ufg159">Produce Market 2</string>
+    <string name="ufg160">Produce Market 3</string>
+    <string name="ufg161">Specify Export Country 1</string>
+    <string name="ufg162">Specify Export Country 2</string>
+    <string name="ufg163">Specify Export Country 3</string>
+    <string name="ufg164">Does the FO do Annual Bulking? </string>
+    <string name="ufg165">Does the FO have Storage Facilities?</string>
+
+
+    <string name="ufg166">How many board meetings were held in the last 12 months?</string>
+    <string name="ufg167">What was the quorum for the general assembly?</string>
+    <string name="ufg168">How many males attended the agm in 2014?</string>
+    <string name="ufg169">How many females attended the agm in 2014?</string>
+    <string name="ufg170">How many males attended the agm in 2015?</string>
+    <string name="ufg171">How many females attended the agm in 2015?</string>
+    <string name="ufg172">How many males attended the agm in 2016?</string>
+    <string name="ufg173">How many females attended the agm in 2016?</string>
+    <string name="ufg174">How many males attended the agm in 2017?</string>
+    <string name="ufg175">How many females attended the agm in 2017?</string>
+    <string name="ufg176">How many males attended the agm in 2018?</string>
+    <string name="ufg177">How many females attended the agm in 2018?</string>
+    <string name="ufg178">How many males attended the agm in 2019?</string>
+    <string name="ufg179">How many females attended the agm in 2019?</string>
+    <string name="ufg180">What is the frequency of exective meetings?	</string>
+    <string name="ufg181">Specify other frequency of executive meetings</string>
+    <string name="ufg182">What is the frequency for holding member meetings?</string>
+    <string name="ufg183">Specify other frequency of member meetings</string>
+
+
+    <string name="ufg184">What are the four main challenges facing the FO ?</string>
+    <string name="ufg185">Main Challenge 1?</string>
+    <string name="ufg186">Main Challenge 2?</string>
+    <string name="ufg187">Main Challenge 3?</string>
+    <string name="ufg188">Main Challenge 4?</string>
+    <string name="ufg189">What are the other challenges facing th FO?</string>
+    <string name="ufg190">Other Challenge 1</string>
+    <string name="ufg191">Other Challenge 2</string>
+    <string name="ufg192">Other Challenge 3</string>
+    <string name="ufg193">What is the major challenge facing the FO? </string>
+    <string name="ufg194">Specify major challenge facing the FO if selected others? </string>
+
+
+    <string name="ufg195">Reference Name 1</string>
+    <string name="ufg196">Reference Contact 1</string>
+    <string name="ufg197">Reference Designation 1</string>
+    <string name="ufg198">Reference Name 2</string>
+    <string name="ufg199">Reference Contact 2</string>
+    <string name="ufg200">Reference Designation 2</string>
+    <string name="ufg201">Reference Name 3</string>
+    <string name="ufg202">Reference Contact 3</string>
+    <string name="ufg203">Reference Designation 3</string>
+
+    <string name="post_image_transition_name" translatable="false">post_image_transition</string>
+    <string name="post_author_image_transition_name" translatable="false">post_author_image_transition_name</string>
+
+    <string name="send_comment_button_label">Send</string>
+    <string name="posted_by_label">Posted by:</string>
+
+
+    <string name="internet_connection_failed">No internet connection</string>
+
+    <string name="comment_text_hint">Enter your response …</string>
+
+    <string name="check_connection">Please check your Network Connection!</string>
+
+    <string name="other_outbreaks">Incoming Outbreaks</string>
+    <string name="reported_by_me">By ME</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+    <string name="app_url">http://omulimisa.org/m-omulimisa/</string>
+    <string name="search_hint">Search..</string>
+
+
+    <string-array name="districts">
+        <item>---Select District---</item>
+        <item>Kagadi</item>
+        <item>Buhweju</item>
+        <item>BUHWEJU</item>
+        <item>KAGADI</item>
+        <item>AMURU</item>
+        <item>WAKISO</item>
+        <item>ENTEBBE CITY</item>
+        <item>ARUA CITY</item>
+        <item>SOROTI CITY</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

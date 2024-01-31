@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_maaif"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Farmer Group Profile"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:text="SECTION A: Contact Details "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmer Group Name"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890"
+            android:maxLength="100"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year of establishment"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a5xv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="4"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What best describes the farmer group?"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:entries="@array/catz_farmer_group"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level of Operation"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:entries="@array/level_of_operation"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Person Name"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a7xb"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Person Phone Number"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a7"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"
+            android:maxLength="10"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Person Email(if available)"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="25"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farmer Group Location Details"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub-County"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parish"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Village"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entreprizes"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entreprize"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/a14"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/textbox_rect_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is the Farmer Group Registered?"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <Spinner
+            android:id="@+id/a17"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:entries="@array/yes_no"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the Farmer Group Registration ID?"
+            android:textSize="16dp"
+            android:id="@+id/a18x"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="25"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How many members are registered with the farmer group?"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/a5xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="text"/>
+
+
+        <Button
+            android:id="@+id/btnSaveEOI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/button_styles"
+            android:text="Register"
+            android:textColor="@color/btn_login" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

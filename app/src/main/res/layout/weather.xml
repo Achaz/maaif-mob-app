@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dffffc"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:textAlignment="center"
+    android:paddingLeft="10dp"
+    android:layout_marginBottom="20dp"
+    >
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textViewName"
+        android:textSize="18dp"
+        android:text="Forecast Date"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/btnDayOfWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="14dp"
+        android:background="@drawable/button_weather"
+        android:layout_alignParentRight="true"
+        android:text="Saturday"
+        android:textColor="@color/btn_login" />
+
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:textAlignment="center"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+        <ImageView
+            android:src="@drawable/icon_02d"
+            android:id="@+id/imageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:text="Topic"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/topic"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Entreprise"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/entreprise"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Beneficiaries "
+            android:layout_alignParentLeft="true"
+            android:id="@+id/beneficiaries"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Group"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Ref"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/ref"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Contact"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/ref_contact"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Village"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/district"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Village"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/village"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Created"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/activitytype"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_maaif" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask A Question"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"/>
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are you inquiring about?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+    <!-- Login Button -->
+
+    <EditText
+        android:id="@+id/farmer_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attach some pictures"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:visibility="visible">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:src="@drawable/ic_fawlea_camera_muted"-->
+        <!--android:focusableInTouchMode="true"-->
+        <!--android:focusable="true" />-->
+        <TextView
+            android:id="@+id/chooseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:text="Choose upto 3 images to upload"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/btn_attach"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_add_circle_outline"
+            android:text="" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:layout_below="@id/btn_attach"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:useDefaultMargins="true">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_photo_camera"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_photo_camera"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_photo_camera"
+                android:visibility="gone" />
+        </GridLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <Button
+            android:id="@+id/btnSaveActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/button_styles"
+            android:text="Submit Question"
+            android:textColor="@color/btn_login" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="Profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/avatarImageView"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/authorContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/authorLabelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="answered by:"
+                android:textAppearance="@style/TextAppearance.Second.Light"/>
+
+            <TextView
+                android:id="@+id/authorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Highlight"
+                android:text="AccountName"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer text"/>
+
+        <TextView
+            android:id="@+id/dateCommented"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0000-00-00 00:00"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

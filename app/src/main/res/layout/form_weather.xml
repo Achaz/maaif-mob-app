@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="10dp">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_maaif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Weather Information"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:text="District"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"/>
+    <EditText
+        android:id="@+id/district"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Sub-County"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <Spinner
+        android:id="@+id/subcounty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Parish"
+        android:textSize="16dp"
+          android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <Spinner
+        android:id="@+id/parish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Forecast Type"
+        android:textSize="16dp"
+          android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/forecast"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+            android:id="@+id/btnSaveActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/button_styles"
+            android:text="Get Weather Information"
+            android:textColor="@color/btn_login" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

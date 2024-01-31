@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_new"
+    tools:context="${relativePackage}.${activityClass}" >
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_maaif"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="24dp" />
+
+
+
+        <Button
+            android:id="@+id/btnGeneralDashboard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_styles"
+            android:text="START REPORTING GRIEVANCES"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnGetHelp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_logout"
+            android:text="GET HELP USING THIS APP!"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="For ACDP project staff i.e Farmer Groups,Parish Chiefs, Subcounty Chiefs, Extension Officers and District Leadership"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textColor="@color/lbl_name"
+            android:textSize="18dp"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btnLoginActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_styles"
+            android:text="START HERE"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:visibility="invisible"/>
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

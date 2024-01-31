@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "ug.go.agriculture.MAAIF_Extension.app-mergeDebugResources-37:/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mubahood\\.gradle\\caches\\transforms-3\\adb9d77c92ef47c87248f72246a3d180\\transformed\\jetified-pix-1.5.6\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,113,169,211",
+                        "endColumns": "57,55,41,46",
+                        "endOffsets": "108,164,206,253"
+                    }
+                }
+            ]
+        }
+    ]
+}

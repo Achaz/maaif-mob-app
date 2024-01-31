@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Name"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/farmer_name"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:background="@drawable/success"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="Category"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Level of education"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/level_of_education"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Phone number "
+            android:layout_alignParentLeft="true"
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Email"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Gender"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Primary Language"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/primary_language"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Secondary Language"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/secondary_language"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="District"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/district"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:text="Sub county"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/subcounty"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Parish"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/parish"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Village"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/village"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="synced"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/is_synced"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Reason for not syncing"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/is_synced_reason"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnDeleteFarmer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/btn_rounded_red"
+            android:text="Delete Farmer"
+            android:textColor="@color/btn_login"
+            android:clickable="true"
+            android:focusable="true"/>
+    </TableLayout>
+
+</RelativeLayout>

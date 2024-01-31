@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main_new"
+    tools:context="${relativePackage}.${activityClass}" >
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_maaif"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the Grievancee Redress Mechanism App Help."
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="24dp" />
+
+
+
+        <Button
+            android:id="@+id/btnHelpOnline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/button_logout"
+            android:text="GET HELP ONLINE"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Grievancee Redress Mechanism App Helps you to quickly submit your grievances with or without a web connection. Follow the five steps below to submit, review and track a grievance easily."
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Opening the App "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open the App and you shall quickly be presented with a welcome screen with 3 buttons as shown below. You can right away start reporting your grievances by clicking the 'START REPORTING GRIEVANCES' button. This button takes you to the GRM Dashbaord where you can enter report, review and track progress of a particular grievance. The second button  'GET HELP USING THIS APP' brings you to this section for help to guide you on how to use the application. The third button 'START HERE' is for Project Staff who wish to login into the app and access more detaills on the go."
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/screen1"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 2: The GRM Dashboard "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This dashboard helps you report, review and track all the grievances reported on your particular device. There are 4 buttons on the GRM Dashboard which help you archieve this functionality. The 'REPORT NEW GRIEVANCE' button takes you to a form where you can record in detail your grievance. The 'REVIEW SAVED GRIEVANCES' button helps you to review the grievances you have uploaded and whether to know if they've synced with the server or not. The green ticker besides each grievance filed indicates that the grievance has been successfully uploaded on the server and assigned a grievance reference number. The third button is the 'TRACK GRIEVANCE' button which helps you track the progress of each grievance filed through the application on your device. The last button 'EXIT' helps you to safely exit the GRM dashboard."
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="14dp" />
+ <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/screen2"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: The report Grievance Form "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This form helps you to report a Grievance. Try too provide as many details as possible about a particular grievance and fill in all the required fields marked with (*) before saving the grievance. Double check the data before submitting to ensure that proper details ar submitted to the system. "
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="14dp" />
+
+ <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/screen3"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Review Saved Grievances "
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This section of the app helps you to review the grievances which have been submitted by the currect device you are using. It is important to note that anyone can submit any grievance anywhere as long as they have the grm app tool installe don their device. The application does not require a connection to work bu rather requires a connection to upload the grievance data submitted offline to the central server. Successful submission of your grievance is indicated  by a green tick besides eash grievance submitted."
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="14dp" />
+
+ <ImageView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:scaleType="fitXY"
+     android:adjustViewBounds="true"
+            android:src="@drawable/screen4"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Track Grievance Progress"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the last part of the GRM tool. This sections helps you follow up with the grievances submitted throuugh the app. You can only follow up and track progress of grievances submitted you. Select a particular reference numbe rof a grievance and press track grievance. This section requires an active internet connection to work as intended.  "
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="14dp" />n
+
+ <ImageView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:scaleType="fitXY"
+     android:adjustViewBounds="true"
+            android:src="@drawable/screen5"
+            android:layout_marginBottom="10dp"/>
+
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:background="@drawable/button_logout"
+            android:text="GO BACK"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

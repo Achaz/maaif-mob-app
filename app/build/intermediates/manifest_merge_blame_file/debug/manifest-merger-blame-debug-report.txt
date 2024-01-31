@@ -1,0 +1,912 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ug.go.agriculture.MAAIF_Extension"
+4    android:versionCode="34"
+5    android:versionName="5.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:8:5-67
+11-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:9:5-79
+12-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:9:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:10:5-80
+13-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:11:5-79
+14-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:11:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:12:5-75
+15-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:12:22-72
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:13:5-81
+16-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:13:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:14:5-79
+17-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:14:22-77
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:15:5-65
+18-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:15:22-62
+19
+20    <uses-feature
+20-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:17:5-86
+21        android:name="android.hardware.camera"
+21-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:17:19-57
+22        android:required="false" />
+22-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:17:59-83
+23    <uses-feature
+23-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:18:5-95
+24        android:name="android.hardware.camera.autofocus"
+24-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:18:19-67
+25        android:required="false" />
+25-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:18:69-93
+26    <uses-feature
+26-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:19:5-90
+27        android:name="android.hardware.camera.flash"
+27-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:19:19-63
+28        android:required="false" />
+28-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:19:64-88
+29
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:13:5-66
+30-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:13:22-63
+31    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+31-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:15:5-71
+31-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:15:22-68
+32    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+32-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:16:5-80
+32-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:16:22-77
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:10:5-76
+33-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:10:22-73
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+38    <uses-feature
+38-->[com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:27:5-29:36
+39        android:name="android.hardware.camera.front"
+39-->[com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:28:9-53
+40        android:required="false" />
+40-->[com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:29:9-33
+41    <uses-feature
+41-->[com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:30:5-32:36
+42        android:name="android.hardware.microphone"
+42-->[com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:31:9-51
+43        android:required="false" />
+43-->[com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:32:9-33
+44
+45    <application
+45-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:22:5-141:24
+46        android:name="ug.go.agriculture.MAAIF_Extension.app.AppController"
+46-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:23:9-75
+47        android:allowBackup="true"
+47-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:24:9-35
+48        android:appComponentFactory="androidx"
+48-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:29:9-47
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:icon="@drawable/ic_launcher"
+51-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:25:9-45
+52        android:label="@string/app_name"
+52-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:26:9-41
+53        android:largeHeap="true"
+53-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:19:9-33
+54        android:requestLegacyExternalStorage="true"
+54-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:27:9-52
+55        android:supportsRtl="true"
+55-->[com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:14:9-35
+56        android:testOnly="true"
+57        android:theme="@style/AppTheme"
+57-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:31:9-40
+58        android:usesCleartextTraffic="true" >
+58-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:30:9-44
+59
+60        <!--
+61            <service
+62            android:name=".MyNotificationService"
+63            android:exported="false" />
+64        -->
+65
+66        <activity
+66-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:36:9-48:20
+67            android:name="ug.go.agriculture.MAAIF_Extension.home.Login"
+67-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:37:13-72
+68            android:exported="true"
+68-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:40:13-36
+69            android:label="@string/app_name"
+69-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:38:13-45
+70            android:launchMode="singleTop"
+70-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:39:13-43
+71            android:windowSoftInputMode="adjustPan" >
+71-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:41:13-52
+72            <intent-filter>
+72-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:42:13-47:29
+73                <action
+73-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:43:17-45:47
+74                    android:name="android.intent.action.MAIN"
+74-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:44:21-62
+75                    android:exported="true" />
+75-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:45:21-44
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:46:17-77
+77-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:46:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:13-183
+81            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Dashboard"
+81-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:23-92
+82            android:exported="true"
+82-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:126-149
+83            android:label="@string/app_name"
+83-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:93-125
+84            android:launchMode="singleTop" />
+84-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:150-180
+85        <activity
+85-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:13-181
+86            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Main"
+86-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:23-90
+87            android:exported="true"
+87-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:124-147
+88            android:label="@string/app_name"
+88-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:91-123
+89            android:launchMode="singleTop" />
+89-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:148-178
+90        <activity
+90-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:13-181
+91            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Form"
+91-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:23-90
+92            android:exported="true"
+92-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:124-147
+93            android:label="@string/app_name"
+93-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:91-123
+94            android:launchMode="singleTop" />
+94-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:148-178
+95        <activity
+95-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:13-182
+96            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Form"
+96-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:23-91
+97            android:exported="true"
+97-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:125-148
+98            android:label="@string/app_name"
+98-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:92-124
+99            android:launchMode="singleTop" />
+99-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:149-179
+100        <activity
+100-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:13-183
+101            android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.Main"
+101-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:23-92
+102            android:exported="true"
+102-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:126-149
+103            android:label="@string/app_name"
+103-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:93-125
+104            android:launchMode="singleTop" />
+104-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:150-180
+105        <activity
+105-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:13-183
+106            android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.Form"
+106-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:23-92
+107            android:exported="true"
+107-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:126-149
+108            android:label="@string/app_name"
+108-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:93-125
+109            android:launchMode="singleTop" />
+109-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:150-180
+110        <activity
+110-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:13-184
+111            android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Form"
+111-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:23-93
+112            android:exported="true"
+112-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:127-150
+113            android:label="@string/app_name"
+113-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:94-126
+114            android:launchMode="singleTop" />
+114-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:151-181
+115        <activity
+115-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:13-178
+116            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Main"
+116-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:23-87
+117            android:exported="true"
+117-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:121-144
+118            android:label="@string/app_name"
+118-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:88-120
+119            android:launchMode="singleTop" />
+119-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:145-175
+120        <activity
+120-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:13-180
+121            android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Main"
+121-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:23-89
+122            android:exported="true"
+122-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:123-146
+123            android:label="@string/app_name"
+123-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:90-122
+124            android:launchMode="singleTop" />
+124-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:147-177
+125        <activity
+125-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:13-180
+126            android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Form"
+126-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:23-89
+127            android:exported="true"
+127-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:123-146
+128            android:label="@string/app_name"
+128-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:90-122
+129            android:launchMode="singleTop" />
+129-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:147-177
+130        <activity
+130-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:13-182
+131            android:name="ug.go.agriculture.MAAIF_Extension.daes.weather.Review"
+131-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:23-91
+132            android:exported="true"
+132-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:125-148
+133            android:label="@string/app_name"
+133-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:92-124
+134            android:launchMode="singleTop" />
+134-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:149-179
+135        <activity
+135-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:13-182
+136            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Main"
+136-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:23-91
+137            android:exported="true"
+137-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:125-148
+138            android:label="@string/app_name"
+138-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:92-124
+139            android:launchMode="singleTop" />
+139-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:149-179
+140        <activity
+140-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:13-184
+141            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Review"
+141-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:23-93
+142            android:exported="true"
+142-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:127-150
+143            android:label="@string/app_name"
+143-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:94-126
+144            android:launchMode="singleTop" />
+144-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:151-181
+145        <activity
+145-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:13-189
+146            android:name="ug.go.agriculture.MAAIF_Extension.daes.outbreaks.PhotoUpload"
+146-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:23-98
+147            android:exported="true"
+147-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:132-155
+148            android:label="@string/app_name"
+148-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:99-131
+149            android:launchMode="singleTop" />
+149-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:156-186
+150        <activity
+150-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:13-182
+151            android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Main"
+151-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:23-91
+152            android:exported="true"
+152-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:125-148
+153            android:label="@string/app_name"
+153-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:92-124
+154            android:launchMode="singleTop" />
+154-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:149-179
+155        <activity
+155-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:13-182
+156            android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Form"
+156-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:23-91
+157            android:exported="true"
+157-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:125-148
+158            android:label="@string/app_name"
+158-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:92-124
+159            android:launchMode="singleTop" />
+159-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:149-179
+160        <activity
+160-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:13-184
+161            android:name="ug.go.agriculture.MAAIF_Extension.farmer.weather.Review"
+161-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:23-93
+162            android:exported="true"
+162-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:127-150
+163            android:label="@string/app_name"
+163-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:94-126
+164            android:launchMode="singleTop" />
+164-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:151-181
+165        <activity
+165-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:13-184
+166            android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Main"
+166-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:23-93
+167            android:exported="true"
+167-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:127-150
+168            android:label="@string/app_name"
+168-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:94-126
+169            android:launchMode="singleTop" />
+169-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:151-181
+170        <activity
+170-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:13-186
+171            android:name="ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Review"
+171-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:23-95
+172            android:exported="true"
+172-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:129-152
+173            android:label="@string/app_name"
+173-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:96-128
+174            android:launchMode="singleTop" />
+174-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:153-183
+175        <activity
+175-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:13-186
+176            android:name="ug.go.agriculture.MAAIF_Extension.daes.notifications.Main"
+176-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:23-95
+177            android:exported="true"
+177-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:129-152
+178            android:label="@string/app_name"
+178-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:96-128
+179            android:launchMode="singleTop" />
+179-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:153-183
+180        <activity
+180-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:13-176
+181            android:name="ug.go.agriculture.MAAIF_Extension.profile.Main"
+181-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:23-84
+182            android:exported="true"
+182-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:119-142
+183            android:label="@string/app_name"
+183-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:85-117
+184            android:launchMode="singleTop" />
+184-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:143-173
+185        <activity
+185-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:13-177
+186            android:name="ug.go.agriculture.MAAIF_Extension.settings.Main"
+186-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:23-85
+187            android:exported="true"
+187-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:120-143
+188            android:label="@string/app_name"
+188-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:86-118
+189            android:launchMode="singleTop" />
+189-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:144-174
+190        <activity
+190-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:13-177
+191            android:name="ug.go.agriculture.MAAIF_Extension.location.Main"
+191-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:23-85
+192            android:exported="true"
+192-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:120-143
+193            android:label="@string/app_name"
+193-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:86-118
+194            android:launchMode="singleTop" />
+194-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:144-174
+195        <activity
+195-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:13-193
+196            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.PlannedActivityForm"
+196-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:23-102
+197            android:exported="true"
+197-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:136-159
+198            android:label="@string/app_name"
+198-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:103-135
+199            android:launchMode="singleTop" />
+199-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:160-190
+200        <activity
+200-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:13-180
+201            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.Review"
+201-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:23-89
+202            android:exported="true"
+202-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:123-146
+203            android:label="@string/app_name"
+203-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:90-122
+204            android:launchMode="singleTop" />
+204-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:147-177
+205        <activity
+205-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:13-185
+206            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.PhotoUpload"
+206-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:23-94
+207            android:exported="true"
+207-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:128-151
+208            android:label="@string/app_name"
+208-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:95-127
+209            android:launchMode="singleTop" />
+209-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:152-182
+210        <activity
+210-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:13-195
+211            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.UnplannedActivityForm"
+211-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:23-104
+212            android:exported="true"
+212-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:138-161
+213            android:label="@string/app_name"
+213-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:105-137
+214            android:launchMode="singleTop" />
+214-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:162-192
+215        <activity
+215-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:13-183
+216            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.Main"
+216-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:23-91
+217            android:exported="true"
+217-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:126-149
+218            android:label="@string/app_name"
+218-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:92-124
+219            android:launchMode="singleTop" />
+219-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:150-180
+220        <activity
+220-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:13-195
+221            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Main"
+221-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:23-104
+222            android:exported="true"
+222-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:138-161
+223            android:label="@string/app_name"
+223-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:105-137
+224            android:launchMode="singleTop" />
+224-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:162-192
+225        <activity
+225-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:13-195
+226            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Form"
+226-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:23-104
+227            android:exported="true"
+227-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:138-161
+228            android:label="@string/app_name"
+228-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:105-137
+229            android:launchMode="singleTop" />
+229-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:162-192
+230        <activity
+230-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:13-189
+231            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Main"
+231-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:23-98
+232            android:exported="true"
+232-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:132-155
+233            android:label="@string/app_name"
+233-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:99-131
+234            android:launchMode="singleTop" />
+234-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:156-186
+235        <activity
+235-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:13-189
+236            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Form"
+236-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:23-98
+237            android:exported="true"
+237-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:132-155
+238            android:label="@string/app_name"
+238-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:99-131
+239            android:launchMode="singleTop" />
+239-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:156-186
+240        <activity
+240-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:13-190
+241            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Review"
+241-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:23-100
+242            android:exported="true"
+242-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:134-157
+243            android:label="@string/app_name"
+243-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:101-133
+244            android:launchMode="singleTop" />
+244-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:158-188
+245        <activity
+245-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:13-194
+246            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Form"
+246-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:23-103
+247            android:exported="true"
+247-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:137-160
+248            android:label="@string/app_name"
+248-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:104-136
+249            android:launchMode="singleTop" />
+249-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:161-191
+250        <activity
+250-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:13-194
+251            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Main"
+251-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:23-103
+252            android:exported="true"
+252-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:137-160
+253            android:label="@string/app_name"
+253-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:104-136
+254            android:launchMode="singleTop" />
+254-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:161-191
+255        <activity
+255-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:13-196
+256            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Review"
+256-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:23-105
+257            android:exported="true"
+257-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:139-162
+258            android:label="@string/app_name"
+258-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:106-138
+259            android:launchMode="singleTop" />
+259-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:163-193
+260        <activity
+260-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:13-197
+261            android:name="ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Review"
+261-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:23-106
+262            android:exported="true"
+262-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:140-163
+263            android:label="@string/app_name"
+263-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:107-139
+264            android:launchMode="singleTop" />
+264-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:164-194
+265        <activity
+265-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:13-176
+266            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Main"
+266-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:23-85
+267            android:exported="true"
+267-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:119-142
+268            android:label="@string/app_name"
+268-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:86-118
+269            android:launchMode="singleTop" />
+269-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:143-173
+270        <activity
+270-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:13-194
+271            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.GRMHelpOnlineActivity"
+271-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:23-102
+272            android:exported="true"
+272-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:137-160
+273            android:label="@string/app_name"
+273-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:103-135
+274            android:launchMode="singleTop" />
+274-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:161-191
+275        <activity
+275-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:13-181
+276            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.GRMOnline"
+276-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:23-90
+277            android:exported="true"
+277-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:124-147
+278            android:label="@string/app_name"
+278-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:91-123
+279            android:launchMode="singleTop" />
+279-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:148-178
+280        <activity
+280-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:13-184
+281            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.HelpActivity"
+281-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:23-93
+282            android:exported="true"
+282-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:127-150
+283            android:label="@string/app_name"
+283-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:94-126
+284            android:launchMode="singleTop" />
+284-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:151-181
+285        <activity
+285-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:13-191
+286            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.ReportGrievanceForm"
+286-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:23-100
+287            android:exported="true"
+287-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:134-157
+288            android:label="@string/app_name"
+288-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:101-133
+289            android:launchMode="singleTop" />
+289-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:158-188
+290        <activity
+290-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:13-178
+291            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Review"
+291-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:23-87
+292            android:exported="true"
+292-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:121-144
+293            android:label="@string/app_name"
+293-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:88-120
+294            android:launchMode="singleTop" />
+294-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:145-175
+295        <activity
+295-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:13-177
+296            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.Track"
+296-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:23-86
+297            android:exported="true"
+297-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:120-143
+298            android:label="@string/app_name"
+298-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:87-119
+299            android:launchMode="singleTop" />
+299-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:144-174
+300        <activity
+300-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:13-201
+301            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.TrackGrievanceOnlineActivity"
+301-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:23-109
+302            android:exported="true"
+302-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:111-134
+303            android:label="@string/app_name"
+303-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:135-167
+304            android:launchMode="singleTop" />
+304-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:168-198
+305        <activity
+305-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:13-188
+306            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.WelcomeActivity"
+306-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:23-96
+307            android:exported="true"
+307-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:131-154
+308            android:label="@string/app_name"
+308-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:97-129
+309            android:launchMode="singleTop" />
+309-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:155-185
+310        <activity
+310-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:13-178
+311            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Main"
+311-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:23-87
+312            android:exported="true"
+312-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:121-144
+313            android:label="@string/app_name"
+313-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:88-120
+314            android:launchMode="singleTop" />
+314-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:145-175
+315        <activity
+315-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:13-195
+316            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMHelpOnlineActivity"
+316-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:23-104
+317            android:exported="true"
+317-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:138-161
+318            android:label="@string/app_name"
+318-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:105-137
+319            android:launchMode="singleTop" />
+319-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:162-192
+320        <activity
+320-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:13-183
+321            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMOnline"
+321-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:23-92
+322            android:exported="true"
+322-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:126-149
+323            android:label="@string/app_name"
+323-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:93-125
+324            android:launchMode="singleTop" />
+324-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:150-180
+325        <activity
+325-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:13-186
+326            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.HelpActivity"
+326-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:23-95
+327            android:exported="true"
+327-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:129-152
+328            android:label="@string/app_name"
+328-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:96-128
+329            android:launchMode="singleTop" />
+329-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:153-183
+330        <activity
+330-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:13-193
+331            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.ReportGrievanceForm"
+331-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:23-102
+332            android:exported="true"
+332-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:136-159
+333            android:label="@string/app_name"
+333-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:103-135
+334            android:launchMode="singleTop" />
+334-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:160-190
+335        <activity
+335-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:13-180
+336            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Review"
+336-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:23-89
+337            android:exported="true"
+337-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:123-146
+338            android:label="@string/app_name"
+338-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:90-122
+339            android:launchMode="singleTop" />
+339-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:147-177
+340        <activity
+340-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:13-179
+341            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.Track"
+341-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:23-88
+342            android:exported="true"
+342-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:122-145
+343            android:label="@string/app_name"
+343-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:89-121
+344            android:launchMode="singleTop" />
+344-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:146-176
+345        <activity
+345-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:13-203
+346            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.TrackGrievanceOnlineActivity"
+346-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:23-111
+347            android:exported="true"
+347-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:113-136
+348            android:label="@string/app_name"
+348-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:137-169
+349            android:launchMode="singleTop" />
+349-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:170-200
+350        <activity
+350-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:13-189
+351            android:name="ug.go.agriculture.MAAIF_Extension.farmer.grm.WelcomeActivity"
+351-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:23-98
+352            android:exported="true"
+352-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:132-155
+353            android:label="@string/app_name"
+353-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:99-131
+354            android:launchMode="singleTop" />
+354-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:156-186
+355        <activity
+355-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:13-183
+356            android:name="ug.go.agriculture.MAAIF_Extension.daes.grm.PhotoUpload"
+356-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:23-92
+357            android:exported="true"
+357-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:126-149
+358            android:label="@string/app_name"
+358-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:93-125
+359            android:launchMode="singleTop" />
+359-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:150-180
+360        <activity
+360-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:13-172
+361            android:name="ug.go.agriculture.MAAIF_Extension.home.Main"
+361-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:23-81
+362            android:exported="true"
+362-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:82-105
+363            android:label="@string/app_name"
+363-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:106-138
+364            android:launchMode="singleTop" />
+364-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:139-169
+365        <activity
+365-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:13-188
+366            android:name="ug.go.agriculture.MAAIF_Extension.home.VerifyAccountActivity"
+366-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:23-98
+367            android:exported="true"
+367-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:99-122
+368            android:label="@string/app_name"
+368-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:123-155
+369            android:launchMode="singleTop" />
+369-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:156-186
+370        <activity
+370-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:13-178
+371            android:name="ug.go.agriculture.MAAIF_Extension.home.MainFarmer"
+371-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:23-87
+372            android:exported="true"
+372-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:121-144
+373            android:label="@string/app_name"
+373-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:88-120
+374            android:launchMode="singleTop" />
+374-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:145-175
+375        <activity
+375-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:13-181
+376            android:name="ug.go.agriculture.MAAIF_Extension.home.RegisterForm"
+376-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:23-89
+377            android:exported="true"
+377-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:124-147
+378            android:label="@string/app_name"
+378-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:90-122
+379            android:launchMode="singleTop" />
+379-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:148-178
+380        <activity
+380-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:13-183
+381            android:name="ug.go.agriculture.MAAIF_Extension.home.ForgotPassword"
+381-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:23-91
+382            android:exported="true"
+382-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:126-149
+383            android:label="@string/app_name"
+383-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:92-124
+384            android:launchMode="singleTop" />
+384-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:150-180
+385        <activity
+385-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:13-182
+386            android:name="ug.go.agriculture.MAAIF_Extension.home.VerifyAccount"
+386-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:23-90
+387            android:exported="true"
+387-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:125-148
+388            android:label="@string/app_name"
+388-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:91-123
+389            android:launchMode="singleTop" />
+389-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:149-179
+390        <activity
+390-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:13-183
+391            android:name="ug.go.agriculture.MAAIF_Extension.home.ChangePassword"
+391-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:23-91
+392            android:exported="true"
+392-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:126-149
+393            android:label="@string/app_name"
+393-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:92-124
+394            android:launchMode="singleTop" />
+394-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:150-180
+395        <activity
+395-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:13-162
+396            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.Questions"
+396-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:23-95
+397            android:label="@string/app_name"
+397-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:96-128
+398            android:launchMode="singleTop" />
+398-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:129-159
+399        <activity
+399-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:13-176
+400            android:name="ug.go.agriculture.MAAIF_Extension.daes.advisory.QuestionDetailsActivity"
+400-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:23-109
+401            android:label="@string/app_name"
+401-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:110-142
+402            android:launchMode="singleTop" />
+402-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:143-173
+403        <activity
+403-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:13-170
+404            android:name="ug.go.agriculture.MAAIF_Extension.farmer.advisory.FarmerQuestions"
+404-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:23-103
+405            android:label="@string/app_name"
+405-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:104-136
+406            android:launchMode="singleTop" />
+406-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:137-167
+407
+408        <receiver
+408-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:124:13-128:24
+409            android:name="ug.go.agriculture.MAAIF_Extension.daes.dairy.NetworkStateChecker"
+409-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:124:23-102
+410            android:exported="true" >
+410-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:124:103-126
+411            <intent-filter>
+411-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:125:17-127:33
+412                <action
+412-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:126:21-107
+413                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
+413-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:126:29-80
+414                    android:exported="true" />
+414-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:126:82-105
+415            </intent-filter>
+416        </receiver>
+417
+418        <uses-library
+418-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:130:13-91
+419            android:name="org.apache.http.legacy"
+419-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:130:27-64
+420            android:required="false" />
+420-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:130:65-89
+421
+422        <provider
+422-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:132:13-140:24
+423            android:name="androidx.core.content.FileProvider"
+423-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:133:17-66
+424            android:authorities="ug.go.agriculture.MAAIF_Extension.provider"
+424-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:134:17-81
+425            android:exported="false"
+425-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:135:17-41
+426            android:grantUriPermissions="true" >
+426-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:136:17-51
+427            <meta-data
+427-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:137:17-139:68
+428                android:name="android.support.FILE_PROVIDER_PATHS"
+428-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:138:21-71
+429                android:resource="@xml/file_paths" />
+429-->C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:139:21-55
+430        </provider>
+431
+432        <activity
+432-->[com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+433            android:name="com.karumi.dexter.DexterActivity"
+433-->[com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:28:13-60
+434            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+434-->[com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:29:13-69
+435        <activity
+435-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:21:9-24:52
+436            android:name="com.fxn.pix.Pix"
+436-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:22:13-43
+437            android:noHistory="true"
+437-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:23:13-37
+438            android:screenOrientation="portrait" /> <!-- Autocomplete -->
+438-->[com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:24:13-49
+439        <activity
+439-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:16:9-23:20
+440            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+440-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:17:13-91
+441            android:exported="false"
+441-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:18:13-37
+442            android:hardwareAccelerated="true"
+442-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:19:13-47
+443            android:label="@string/places_autocomplete_label"
+443-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:20:13-62
+444            android:theme="@style/PlacesAutocompleteThemeOverlay"
+444-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:21:13-66
+445            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+445-->[com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:22:13-71
+446        </activity>
+447        <activity
+447-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+448            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+448-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+449            android:exported="false"
+449-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+450            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+450-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+451
+452        <meta-data
+452-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+453            android:name="com.google.android.gms.version"
+453-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+454            android:value="@integer/google_play_services_version" />
+454-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+455
+456        <provider
+456-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+457            android:name="androidx.startup.InitializationProvider"
+457-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+458            android:authorities="ug.go.agriculture.MAAIF_Extension.androidx-startup"
+458-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+459            android:exported="false" >
+459-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+460            <meta-data
+460-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+461                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+461-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+462                android:value="androidx.startup" />
+462-->[androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+463            <meta-data
+463-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+464                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+464-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+465                android:value="androidx.startup" />
+465-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+466        </provider>
+467    </application>
+468
+469</manifest>

@@ -1,0 +1,1218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\mubahood\.gradle\caches\transforms-3\d719c211d28576cf41164fe387cd83b0\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\mubahood\.gradle\caches\transforms-3\0a260286398313079a698f4510509603\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\mubahood\.gradle\caches\transforms-3\69592bd19cec1de513dd3643bec51fc2\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7c7a8c29ecce42e20d903e3a51f8df85\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\815106d534a930d4f7761aabbe083435\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\34c3819cee2951fdcdce0cc29fa8544c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\a0f487a4babc02e94edd80c903b84cb8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f055c86c32495a443387734d6571bdf\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\72de3ad0e7ea8651a6e87e246ac967c6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\mubahood\.gradle\caches\transforms-3\cf2a97d9c5719b92ddf0482175003ffc\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\mubahood\.gradle\caches\transforms-3\59fb4356d9d07244543ad210c670a836\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\5be5ee84427262ab0c96eba4d80d0727\transformed\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\22af41d6efc01e2b1f6684642bfbf4e6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\2ffd33c42ee9142780d270ad93a06b80\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\edcdf00559453ac5f7364b461524ff25\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\92389d42dacee50431fdf899a9097c97\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\44f59b81c87b69ad5a2c3b803c83780d\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f4c29460011dfa6c0fab78d87fcf66a\transformed\jetified-play-services-clearcut-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5eebe574d9e6c9f8c2b895018cc869ce\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c5bf281edbbba38f91f37580d8b948a2\transformed\jetified-play-services-phenotype-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f8528392caa6a2199f61995205afb090\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:2:1-36:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\298d26afc43b96aed8328f9be2b66561\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mubahood\.gradle\caches\transforms-3\29bdfe4f1619e457b1b22ec172982bb4\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\mubahood\.gradle\caches\transforms-3\0344911b91ed317780bda162b2454816\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\1d741778aec3db57fd68aa64c122ce13\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\134b728fa4e8aa6475e3c09158ebb5ed\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\9b680f4524c73cf4651435f7b7ab96a9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\52dfa200d5ab65159c02970340836908\transformed\jetified-butterknife-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\6ac03d31a8f2abc516061a7750534763\transformed\jetified-butterknife-runtime-10.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\721e99ca2fad293e8a90e4a46ff99043\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\e1b23a5846fa69c62ae6c2763eaeb253\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\672c698f430ef3053188faf174992e0a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\4256eb7d1165099cdd30ddd844e112fc\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\a9f454f90017dca7389400a6976be6d0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5dc7619c10ef7678503baa0c7d18529c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7f38362bc79cae2826970a4e78d0cb43\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\4ea78e3a5300ae57948a4528ff114bdc\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\9eb380a3cf80bba9e9048b4e90861122\transformed\jetified-lifecycle-viewmodel-savedstate-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\ce48164422c3447ff8a6246b4d8ea9c1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\50d1210be62fa0ff51eb398d1f0c84bc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\82fa90d23cdf9bff2754b7b5bb99f566\transformed\lifecycle-livedata-core-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b62f021449e53cd8f85a380c2a59df94\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\18bea7d8b6ce63feab6ed492d57d56cb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\5e3779b07bb82174664f221ea90a563c\transformed\lifecycle-viewmodel-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\0ac292ef7d0ef76badfd31e4dc43acf2\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\9edc97b4929ab5c71815cd3246cf40bf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c91ee04b2e3e2b4e3408d247f58d785c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\daafd13ed6472e5d90ee94a442cae491\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f11a2796b54455e05ab8603854e4e469\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\e7dcb9099a010333ca261194f2428cd7\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.otaliastudios.opengl:egloo:0.5.3] C:\Users\mubahood\.gradle\caches\transforms-3\d493edbabd2ac3fffc90084f9d62e86b\transformed\jetified-egloo-0.5.3\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\mubahood\.gradle\caches\transforms-3\8ebc4248a660d578c61289c6b8306685\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\bc8f09077361d45b728b4d67263c1413\transformed\jetified-flexbox-0.3.2\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.delight-im:Android-SimpleLocation:v1.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\8c3568e069e68a4ff5373101aea9ba3f\transformed\jetified-Android-SimpleLocation-v1.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\707bcaba65c7e6c5ecdee85cac716089\transformed\jetified-rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\1e6052f924d63738a26c3e620654d535\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\6f36063099faf68265a14f9a1e133c3b\transformed\jetified-circularimageview-3.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\cc06242ea379559a7b6be7811f23a532\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:1-143:16
+	package
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:4:5-48
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:14:5-81
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:12:5-80
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:15:5-65
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:11:5-65
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:11:5-65
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:13:5-65
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:15:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:17:5-86
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:21:5-23:36
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:17:59-83
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:17:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:18:5-95
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:24:5-26:36
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:18:69-93
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:18:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:19:5-90
+	android:required
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:19:64-88
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:19:19-63
+application
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:22:5-141:24
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:26:5-30:19
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:18:5-25:19
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:18:5-25:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\mubahood\.gradle\caches\transforms-3\d719c211d28576cf41164fe387cd83b0\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\mubahood\.gradle\caches\transforms-3\d719c211d28576cf41164fe387cd83b0\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\mubahood\.gradle\caches\transforms-3\0a260286398313079a698f4510509603\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\mubahood\.gradle\caches\transforms-3\0a260286398313079a698f4510509603\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\5be5ee84427262ab0c96eba4d80d0727\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\5be5ee84427262ab0c96eba4d80d0727\transformed\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f4c29460011dfa6c0fab78d87fcf66a\transformed\jetified-play-services-clearcut-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f4c29460011dfa6c0fab78d87fcf66a\transformed\jetified-play-services-clearcut-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5eebe574d9e6c9f8c2b895018cc869ce\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5eebe574d9e6c9f8c2b895018cc869ce\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c5bf281edbbba38f91f37580d8b948a2\transformed\jetified-play-services-phenotype-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c5bf281edbbba38f91f37580d8b948a2\transformed\jetified-play-services-phenotype-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f8528392caa6a2199f61995205afb090\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f8528392caa6a2199f61995205afb090\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:34:5-20
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:34:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\298d26afc43b96aed8328f9be2b66561\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\298d26afc43b96aed8328f9be2b66561\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\e7dcb9099a010333ca261194f2428cd7\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\e7dcb9099a010333ca261194f2428cd7\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.otaliastudios.opengl:egloo:0.5.3] C:\Users\mubahood\.gradle\caches\transforms-3\d493edbabd2ac3fffc90084f9d62e86b\transformed\jetified-egloo-0.5.3\AndroidManifest.xml:10:5-20
+MERGED from [com.otaliastudios.opengl:egloo:0.5.3] C:\Users\mubahood\.gradle\caches\transforms-3\d493edbabd2ac3fffc90084f9d62e86b\transformed\jetified-egloo-0.5.3\AndroidManifest.xml:10:5-20
+MERGED from [com.github.delight-im:Android-SimpleLocation:v1.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\8c3568e069e68a4ff5373101aea9ba3f\transformed\jetified-Android-SimpleLocation-v1.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.delight-im:Android-SimpleLocation:v1.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\8c3568e069e68a4ff5373101aea9ba3f\transformed\jetified-Android-SimpleLocation-v1.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:11:5-15:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:27:9-52
+	android:supportsRtl
+		ADDED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:26:9-41
+	android:appComponentFactory
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:29:9-47
+		REJECTED from [androidx.core:core:1.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:largeHeap
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:19:9-33
+	android:icon
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:25:9-45
+	android:allowBackup
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:31:9-40
+	tools:replace
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:28:9-52
+	android:usesCleartextTraffic
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:23:9-75
+activity#ug.go.agriculture.MAAIF_Extension.home.Login
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:36:9-48:20
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:38:13-45
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:39:13-43
+	android:windowSoftInputMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:41:13-52
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:37:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:42:13-47:29
+action#android.intent.action.MAIN
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:43:17-45:47
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:45:21-44
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:44:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:46:27-74
+activity#ug.go.agriculture.MAAIF_Extension.daes.dairy.Dashboard
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:93-125
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:50:23-92
+activity#ug.go.agriculture.MAAIF_Extension.daes.advisory.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:13-181
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:91-123
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:148-178
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:124-147
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:51:23-90
+activity#ug.go.agriculture.MAAIF_Extension.daes.advisory.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:13-181
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:91-123
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:148-178
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:124-147
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:52:23-90
+activity#ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:13-182
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:149-179
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:125-148
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:53:23-91
+activity#ug.go.agriculture.MAAIF_Extension.farmer.advisory.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:93-125
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:54:23-92
+activity#ug.go.agriculture.MAAIF_Extension.farmer.advisory.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:93-125
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:55:23-92
+activity#ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:13-184
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:94-126
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:151-181
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:127-150
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:56:23-93
+activity#ug.go.agriculture.MAAIF_Extension.daes.dairy.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:13-178
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:88-120
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:145-175
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:121-144
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:57:23-87
+activity#ug.go.agriculture.MAAIF_Extension.daes.weather.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:13-180
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:90-122
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:147-177
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:123-146
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:59:23-89
+activity#ug.go.agriculture.MAAIF_Extension.daes.weather.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:13-180
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:90-122
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:147-177
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:123-146
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:60:23-89
+activity#ug.go.agriculture.MAAIF_Extension.daes.weather.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:13-182
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:149-179
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:125-148
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:61:23-91
+activity#ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:13-182
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:149-179
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:125-148
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:62:23-91
+activity#ug.go.agriculture.MAAIF_Extension.daes.outbreaks.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:13-184
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:94-126
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:151-181
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:127-150
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:63:23-93
+activity#ug.go.agriculture.MAAIF_Extension.daes.outbreaks.PhotoUpload
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:13-189
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:99-131
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:156-186
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:132-155
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:64:23-98
+activity#ug.go.agriculture.MAAIF_Extension.farmer.weather.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:13-182
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:149-179
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:125-148
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:65:23-91
+activity#ug.go.agriculture.MAAIF_Extension.farmer.weather.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:13-182
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:149-179
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:125-148
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:66:23-91
+activity#ug.go.agriculture.MAAIF_Extension.farmer.weather.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:13-184
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:94-126
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:151-181
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:127-150
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:67:23-93
+activity#ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:13-184
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:94-126
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:151-181
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:127-150
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:68:23-93
+activity#ug.go.agriculture.MAAIF_Extension.farmer.outbreaks.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:13-186
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:96-128
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:153-183
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:129-152
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:69:23-95
+activity#ug.go.agriculture.MAAIF_Extension.daes.notifications.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:13-186
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:96-128
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:153-183
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:129-152
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:70:23-95
+activity#ug.go.agriculture.MAAIF_Extension.profile.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:13-176
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:85-117
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:143-173
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:119-142
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:71:23-84
+activity#ug.go.agriculture.MAAIF_Extension.settings.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:13-177
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:86-118
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:144-174
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:120-143
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:72:23-85
+activity#ug.go.agriculture.MAAIF_Extension.location.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:13-177
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:86-118
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:144-174
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:120-143
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:73:23-85
+activity#ug.go.agriculture.MAAIF_Extension.daes.dairy.PlannedActivityForm
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:13-193
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:103-135
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:160-190
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:136-159
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:75:23-102
+activity#ug.go.agriculture.MAAIF_Extension.daes.dairy.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:13-180
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:90-122
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:147-177
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:123-146
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:76:23-89
+activity#ug.go.agriculture.MAAIF_Extension.daes.dairy.PhotoUpload
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:13-185
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:95-127
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:152-182
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:128-151
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:77:23-94
+activity#ug.go.agriculture.MAAIF_Extension.daes.dairy.UnplannedActivityForm
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:13-195
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:105-137
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:162-192
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:138-161
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:78:23-104
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:80:23-91
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:13-195
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:105-137
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:162-192
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:138-161
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:81:23-104
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:13-195
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:105-137
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:162-192
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:138-161
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:82:23-104
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:13-189
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:99-131
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:156-186
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:132-155
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:83:23-98
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:13-189
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:99-131
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:156-186
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:132-155
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:84:23-98
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.farmer.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:13-190
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:101-133
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:158-188
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:134-157
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:85:23-100
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Form
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:13-194
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:104-136
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:161-191
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:137-160
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:86:23-103
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:13-194
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:104-136
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:161-191
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:137-160
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:87:23-103
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.farmergroup.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:13-196
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:106-138
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:163-193
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:139-162
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:88:23-105
+activity#ug.go.agriculture.MAAIF_Extension.daes.profiling.otherplayers.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:13-197
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:107-139
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:164-194
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:140-163
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:89:23-106
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:13-176
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:86-118
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:143-173
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:119-142
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:91:23-85
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.GRMHelpOnlineActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:13-194
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:103-135
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:161-191
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:137-160
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:92:23-102
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.GRMOnline
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:13-181
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:91-123
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:148-178
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:124-147
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:93:23-90
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.HelpActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:13-184
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:94-126
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:151-181
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:127-150
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:94:23-93
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.ReportGrievanceForm
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:13-191
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:101-133
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:158-188
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:134-157
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:95:23-100
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:13-178
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:88-120
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:145-175
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:121-144
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:96:23-87
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.Track
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:13-177
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:87-119
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:144-174
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:120-143
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:97:23-86
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.TrackGrievanceOnlineActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:13-201
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:135-167
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:168-198
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:111-134
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:98:23-109
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.WelcomeActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:13-188
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:97-129
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:155-185
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:131-154
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:99:23-96
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:13-178
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:88-120
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:145-175
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:121-144
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:101:23-87
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMHelpOnlineActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:13-195
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:105-137
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:162-192
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:138-161
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:102:23-104
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.GRMOnline
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:93-125
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:103:23-92
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.HelpActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:13-186
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:96-128
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:153-183
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:129-152
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:104:23-95
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.ReportGrievanceForm
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:13-193
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:103-135
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:160-190
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:136-159
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:105:23-102
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.Review
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:13-180
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:90-122
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:147-177
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:123-146
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:106:23-89
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.Track
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:13-179
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:89-121
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:146-176
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:122-145
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:107:23-88
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.TrackGrievanceOnlineActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:13-203
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:137-169
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:170-200
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:113-136
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:108:23-111
+activity#ug.go.agriculture.MAAIF_Extension.farmer.grm.WelcomeActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:13-189
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:99-131
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:156-186
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:132-155
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:109:23-98
+activity#ug.go.agriculture.MAAIF_Extension.daes.grm.PhotoUpload
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:93-125
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:110:23-92
+activity#ug.go.agriculture.MAAIF_Extension.home.Main
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:13-172
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:106-138
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:139-169
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:82-105
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:112:23-81
+activity#ug.go.agriculture.MAAIF_Extension.home.VerifyAccountActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:13-188
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:123-155
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:156-186
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:99-122
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:113:23-98
+activity#ug.go.agriculture.MAAIF_Extension.home.MainFarmer
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:13-178
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:88-120
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:145-175
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:121-144
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:114:23-87
+activity#ug.go.agriculture.MAAIF_Extension.home.RegisterForm
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:13-181
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:90-122
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:148-178
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:124-147
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:115:23-89
+activity#ug.go.agriculture.MAAIF_Extension.home.ForgotPassword
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:116:23-91
+activity#ug.go.agriculture.MAAIF_Extension.home.VerifyAccount
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:13-182
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:91-123
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:149-179
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:125-148
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:117:23-90
+activity#ug.go.agriculture.MAAIF_Extension.home.ChangePassword
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:13-183
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:92-124
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:150-180
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:126-149
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:118:23-91
+activity#ug.go.agriculture.MAAIF_Extension.daes.advisory.Questions
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:13-162
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:96-128
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:129-159
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:120:23-95
+activity#ug.go.agriculture.MAAIF_Extension.daes.advisory.QuestionDetailsActivity
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:13-176
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:110-142
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:143-173
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:121:23-109
+activity#ug.go.agriculture.MAAIF_Extension.farmer.advisory.FarmerQuestions
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:13-170
+	android:label
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:104-136
+	android:launchMode
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:137-167
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:122:23-103
+receiver#ug.go.agriculture.MAAIF_Extension.daes.dairy.NetworkStateChecker
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:124:13-128:24
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:124:103-126
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:124:23-102
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:125:17-127:33
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:126:21-107
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:126:82-105
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:126:29-80
+uses-library#org.apache.http.legacy
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:130:13-91
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:130:65-89
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:130:27-64
+provider#androidx.core.content.FileProvider
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:132:13-140:24
+	android:grantUriPermissions
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:136:17-51
+	android:authorities
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:134:17-81
+	android:exported
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:135:17-41
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:133:17-66
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:137:17-139:68
+	android:resource
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:139:21-55
+	android:name
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml:138:21-71
+uses-sdk
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\mubahood\.gradle\caches\transforms-3\d719c211d28576cf41164fe387cd83b0\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\mubahood\.gradle\caches\transforms-3\d719c211d28576cf41164fe387cd83b0\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\mubahood\.gradle\caches\transforms-3\0a260286398313079a698f4510509603\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\mubahood\.gradle\caches\transforms-3\0a260286398313079a698f4510509603\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:7:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\mubahood\.gradle\caches\transforms-3\69592bd19cec1de513dd3643bec51fc2\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\mubahood\.gradle\caches\transforms-3\69592bd19cec1de513dd3643bec51fc2\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7c7a8c29ecce42e20d903e3a51f8df85\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7c7a8c29ecce42e20d903e3a51f8df85\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\815106d534a930d4f7761aabbe083435\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\815106d534a930d4f7761aabbe083435\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\34c3819cee2951fdcdce0cc29fa8544c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\34c3819cee2951fdcdce0cc29fa8544c\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\a0f487a4babc02e94edd80c903b84cb8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\a0f487a4babc02e94edd80c903b84cb8\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f055c86c32495a443387734d6571bdf\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f055c86c32495a443387734d6571bdf\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\72de3ad0e7ea8651a6e87e246ac967c6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\72de3ad0e7ea8651a6e87e246ac967c6\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\mubahood\.gradle\caches\transforms-3\cf2a97d9c5719b92ddf0482175003ffc\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\mubahood\.gradle\caches\transforms-3\cf2a97d9c5719b92ddf0482175003ffc\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\mubahood\.gradle\caches\transforms-3\59fb4356d9d07244543ad210c670a836\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\mubahood\.gradle\caches\transforms-3\59fb4356d9d07244543ad210c670a836\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\5be5ee84427262ab0c96eba4d80d0727\transformed\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\5be5ee84427262ab0c96eba4d80d0727\transformed\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\22af41d6efc01e2b1f6684642bfbf4e6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\22af41d6efc01e2b1f6684642bfbf4e6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\2ffd33c42ee9142780d270ad93a06b80\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\2ffd33c42ee9142780d270ad93a06b80\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\edcdf00559453ac5f7364b461524ff25\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\edcdf00559453ac5f7364b461524ff25\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\92389d42dacee50431fdf899a9097c97\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\92389d42dacee50431fdf899a9097c97\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\44f59b81c87b69ad5a2c3b803c83780d\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\44f59b81c87b69ad5a2c3b803c83780d\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f4c29460011dfa6c0fab78d87fcf66a\transformed\jetified-play-services-clearcut-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\4f4c29460011dfa6c0fab78d87fcf66a\transformed\jetified-play-services-clearcut-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5eebe574d9e6c9f8c2b895018cc869ce\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5eebe574d9e6c9f8c2b895018cc869ce\transformed\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c5bf281edbbba38f91f37580d8b948a2\transformed\jetified-play-services-phenotype-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c5bf281edbbba38f91f37580d8b948a2\transformed\jetified-play-services-phenotype-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f8528392caa6a2199f61995205afb090\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f8528392caa6a2199f61995205afb090\transformed\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:8:5-11:60
+MERGED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:8:5-11:60
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\298d26afc43b96aed8328f9be2b66561\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\298d26afc43b96aed8328f9be2b66561\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mubahood\.gradle\caches\transforms-3\29bdfe4f1619e457b1b22ec172982bb4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\mubahood\.gradle\caches\transforms-3\29bdfe4f1619e457b1b22ec172982bb4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\mubahood\.gradle\caches\transforms-3\0344911b91ed317780bda162b2454816\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\mubahood\.gradle\caches\transforms-3\0344911b91ed317780bda162b2454816\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\1d741778aec3db57fd68aa64c122ce13\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\1d741778aec3db57fd68aa64c122ce13\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\134b728fa4e8aa6475e3c09158ebb5ed\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\134b728fa4e8aa6475e3c09158ebb5ed\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\9b680f4524c73cf4651435f7b7ab96a9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\9b680f4524c73cf4651435f7b7ab96a9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\52dfa200d5ab65159c02970340836908\transformed\jetified-butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\52dfa200d5ab65159c02970340836908\transformed\jetified-butterknife-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\6ac03d31a8f2abc516061a7750534763\transformed\jetified-butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\6ac03d31a8f2abc516061a7750534763\transformed\jetified-butterknife-runtime-10.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\721e99ca2fad293e8a90e4a46ff99043\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\721e99ca2fad293e8a90e4a46ff99043\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\e1b23a5846fa69c62ae6c2763eaeb253\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\e1b23a5846fa69c62ae6c2763eaeb253\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\672c698f430ef3053188faf174992e0a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\672c698f430ef3053188faf174992e0a\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\4256eb7d1165099cdd30ddd844e112fc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\4256eb7d1165099cdd30ddd844e112fc\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\a9f454f90017dca7389400a6976be6d0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\a9f454f90017dca7389400a6976be6d0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5dc7619c10ef7678503baa0c7d18529c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\5dc7619c10ef7678503baa0c7d18529c\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7f38362bc79cae2826970a4e78d0cb43\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7f38362bc79cae2826970a4e78d0cb43\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\4ea78e3a5300ae57948a4528ff114bdc\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\4ea78e3a5300ae57948a4528ff114bdc\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\9eb380a3cf80bba9e9048b4e90861122\transformed\jetified-lifecycle-viewmodel-savedstate-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\9eb380a3cf80bba9e9048b4e90861122\transformed\jetified-lifecycle-viewmodel-savedstate-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\ce48164422c3447ff8a6246b4d8ea9c1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\ce48164422c3447ff8a6246b4d8ea9c1\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\50d1210be62fa0ff51eb398d1f0c84bc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\50d1210be62fa0ff51eb398d1f0c84bc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\82fa90d23cdf9bff2754b7b5bb99f566\transformed\lifecycle-livedata-core-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\82fa90d23cdf9bff2754b7b5bb99f566\transformed\lifecycle-livedata-core-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b62f021449e53cd8f85a380c2a59df94\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b62f021449e53cd8f85a380c2a59df94\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\mubahood\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\18bea7d8b6ce63feab6ed492d57d56cb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\18bea7d8b6ce63feab6ed492d57d56cb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\5e3779b07bb82174664f221ea90a563c\transformed\lifecycle-viewmodel-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\5e3779b07bb82174664f221ea90a563c\transformed\lifecycle-viewmodel-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\0ac292ef7d0ef76badfd31e4dc43acf2\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\0ac292ef7d0ef76badfd31e4dc43acf2\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\9edc97b4929ab5c71815cd3246cf40bf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\9edc97b4929ab5c71815cd3246cf40bf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c91ee04b2e3e2b4e3408d247f58d785c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\c91ee04b2e3e2b4e3408d247f58d785c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\daafd13ed6472e5d90ee94a442cae491\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\daafd13ed6472e5d90ee94a442cae491\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f11a2796b54455e05ab8603854e4e469\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\f11a2796b54455e05ab8603854e4e469\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\e7dcb9099a010333ca261194f2428cd7\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\mubahood\.gradle\caches\transforms-3\e7dcb9099a010333ca261194f2428cd7\transformed\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.otaliastudios.opengl:egloo:0.5.3] C:\Users\mubahood\.gradle\caches\transforms-3\d493edbabd2ac3fffc90084f9d62e86b\transformed\jetified-egloo-0.5.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.otaliastudios.opengl:egloo:0.5.3] C:\Users\mubahood\.gradle\caches\transforms-3\d493edbabd2ac3fffc90084f9d62e86b\transformed\jetified-egloo-0.5.3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\mubahood\.gradle\caches\transforms-3\8ebc4248a660d578c61289c6b8306685\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\mubahood\.gradle\caches\transforms-3\8ebc4248a660d578c61289c6b8306685\transformed\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\bc8f09077361d45b728b4d67263c1413\transformed\jetified-flexbox-0.3.2\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android:flexbox:0.3.2] C:\Users\mubahood\.gradle\caches\transforms-3\bc8f09077361d45b728b4d67263c1413\transformed\jetified-flexbox-0.3.2\AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.delight-im:Android-SimpleLocation:v1.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\8c3568e069e68a4ff5373101aea9ba3f\transformed\jetified-Android-SimpleLocation-v1.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.delight-im:Android-SimpleLocation:v1.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\8c3568e069e68a4ff5373101aea9ba3f\transformed\jetified-Android-SimpleLocation-v1.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\707bcaba65c7e6c5ecdee85cac716089\transformed\jetified-rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\707bcaba65c7e6c5ecdee85cac716089\transformed\jetified-rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\1e6052f924d63738a26c3e620654d535\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\mubahood\.gradle\caches\transforms-3\1e6052f924d63738a26c3e620654d535\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\6f36063099faf68265a14f9a1e133c3b\transformed\jetified-circularimageview-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\6f36063099faf68265a14f9a1e133c3b\transformed\jetified-circularimageview-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] C:\Users\mubahood\.gradle\caches\transforms-3\3bf1d9099d79ca6605a2058cd015b5bd\transformed\jetified-searchablespinnerlibrary-1.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\cc06242ea379559a7b6be7811f23a532\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\mubahood\.gradle\caches\transforms-3\cc06242ea379559a7b6be7811f23a532\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:11:9-57
+	android:targetSdkVersion
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		ADDED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\github\maaif_extension_mobile_app\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\mubahood\.gradle\caches\transforms-3\5cdd74355348d74f2d50a1930ce90667\transformed\jetified-dexter-4.2.0\AndroidManifest.xml:28:13-60
+uses-permission#android.permission.VIBRATE
+ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:16:22-77
+activity#com.fxn.pix.Pix
+ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:21:9-24:52
+	android:screenOrientation
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:24:13-49
+	android:noHistory
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [com.fxn769:pix:1.5.6] C:\Users\mubahood\.gradle\caches\transforms-3\adb9d77c92ef47c87248f72246a3d180\transformed\jetified-pix-1.5.6\AndroidManifest.xml:22:13-43
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:10:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:16:9-23:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:20:13-62
+	android:hardwareAccelerated
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:19:13-47
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:22:13-71
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:18:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:21:13-66
+	android:name
+		ADDED from [com.google.android.libraries.places:places:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\7d008754fe5dde5ed91c8c37b3651c68\transformed\jetified-places-1.0.0\AndroidManifest.xml:17:13-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\eb6945c9a87d8da5acc500213d2ba600\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\b0ccaa7e74f85fc81886b1df5f1ed157\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+uses-feature#android.hardware.camera.front
+ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from [com.otaliastudios:cameraview:2.7.0] C:\Users\mubahood\.gradle\caches\transforms-3\8211deea509fbc759dc6d145b8e9ebe4\transformed\jetified-cameraview-2.7.0\AndroidManifest.xml:31:9-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\cde007d45361b4c502063b91b274391c\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73efe452280fdccb4b29b6899975f817\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\mubahood\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\mubahood\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

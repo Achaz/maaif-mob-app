@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_maaif"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Farmer expression of Interest"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="SECTION A: Contact Details "
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surname"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <EditText
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:maxLength="25"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="text" />
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First name(s)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <EditText
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:layout_marginBottom="30dp"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:ems="10"
+        android:inputType="text" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year of birth"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <Spinner
+        android:id="@+id/a3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/years"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <Spinner
+        android:id="@+id/a4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/gender"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Farmer Phone Number"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <EditText
+        android:id="@+id/a7"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is Farmer a citizen or a refugee?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a111"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/citizen"
+        />
+
+
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter National Identification Number(NIN)"
+         android:id="@+id/a5x"
+         android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <EditText
+        android:id="@+id/a5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:maxLength="20"
+        android:ems="10"
+        android:inputType="text" />
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Refugee Number"
+         android:id="@+id/a6x"
+         android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <EditText
+        android:id="@+id/a6"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:maxLength="20"
+        android:ems="10"
+        android:inputType="text" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Does the Farmer have a Spouse?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a16"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/yes_no"
+        />
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surname of Spouse"
+        android:id="@+id/a8x"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <!-- Login Button -->
+
+    <EditText
+        android:id="@+id/a8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:maxLength="30"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:ems="10"
+        android:inputType="text" />
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First name(s) of Spouse"
+        android:id="@+id/a25x"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <!-- Login Button -->
+
+    <EditText
+        android:id="@+id/a25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:maxLength="30"
+        android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:ems="10"
+        android:inputType="text" />
+
+
+
+ <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spouse Phone number"
+     android:id="@+id/a9x"
+     android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <!-- Login Button -->
+
+    <EditText
+        android:id="@+id/a9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:maxLength="10"
+        android:ems="10"
+        android:inputType="number" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location of home of the farmerGroup"
+        android:textSize="24dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="District"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/a10"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:editable="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub-County"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        />
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parish"
+        android:textSize="20dp"
+          android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <Spinner
+        android:id="@+id/a12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        />
+
+
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Village"
+        android:textSize="20dp"
+          android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <Spinner
+        android:id="@+id/a13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SECTION B: Suitability Criteria "
+        android:layout_marginTop="30dp"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Does Farmer have land available to use for irrigation for the next 12 months?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/yes_no"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Does Farmer have a water supply within 700m of the land to be irrigated?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/yes_no"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is the Farmer willing to make a co-payment for the irrigation equipment? "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a18"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/yes_no"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is the Farmer willing to engage in market orientated agriculture?  "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a19"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/yes_no"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Has the Farmer already made an application the UgIFT Micro Scale Irrigation program?  "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+
+    <Spinner
+        android:id="@+id/a20"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:entries="@array/yes_no"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment(s) or Remarks "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/a17"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <Button
+            android:id="@+id/btnSaveEOI"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/button_styles"
+            android:text="Save Farmer Expression of Interest"
+            android:textColor="@color/btn_login" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

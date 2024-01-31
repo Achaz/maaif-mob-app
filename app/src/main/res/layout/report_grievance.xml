@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="10dp">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_maaif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report a Grievance"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Compainant Details :  "
+        android:textStyle="bold"
+        android:drawableBottom="@android:color/black"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:text="Select District"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp" />
+    <Spinner
+        android:id="@+id/district"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Sub-County"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <Spinner
+        android:id="@+id/subcounty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Parish"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <Spinner
+        android:id="@+id/parish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Village"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <Spinner
+        android:id="@+id/village"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complainant Name"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:hint="e.g Robert Muhereza"
+        android:inputType="text"
+        android:padding="5dp"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complainant Age"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="2"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complainant Gender"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+    <Spinner
+        android:id="@+id/cGender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/gender"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complainant Phone"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:layout_marginBottom="20dp"
+        android:maxLength="10"
+        android:hint="e.g 0756431579"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prefered Complainant Feeback Mode"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedbackMode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/feedbackmode"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Does Complainant wish to be Anonymous?"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <Spinner
+        android:id="@+id/cAnonymous"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/yes_no"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter The Grievance Details :  "
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:drawableBottom="@android:color/black"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grivance Nature"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <Spinner
+        android:id="@+id/gNature"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/gNature"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grivance Type"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <Spinner
+        android:id="@+id/gType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grievance Type (*If not listed above)"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/typeNotListed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:maxLength="50"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How was Grievance filed?"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <Spinner
+        android:id="@+id/gReceipt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/gReceipt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grivance Brief Description"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/gDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:maxLength="500"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where Was Grivance Settled? "
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <Spinner
+        android:id="@+id/gSettlement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/gSettlement"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Past Actions and Resolutions(If Available)"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/gPastAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:maxLength="500"/>
+
+    <Button
+            android:id="@+id/btnSavedGrievance"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/button_logout"
+            android:text="Report Grievance"
+            android:textColor="@color/btn_login" />
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
